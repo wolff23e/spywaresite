@@ -1,128 +1,458 @@
 <!DOCTYPE html>
 <html>
-<title>Spyware and the Surveillance State</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="//www.amcharts.com/lib/4/core.js"></script>
-<script src="//www.amcharts.com/lib/4/maps.js"></script>
-<script src="//www.amcharts.com/lib/4/geodata/worldLow.js"></script>
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css"
-    integrity="sha256-QVBN0oT74UhpCtEo4Ko+k3sNo+ykJFBBtGduw13V9vw=" crossorigin="anonymous" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="index.css" />
-<style>
-body,h1,h2{font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-p {line-height: 2}
-.bgimg2 {background-image: url("/w3images/flowers.jpg")}
-</style>
+  <title>Spyware and the Surveillance State</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css"
+      integrity="sha256-QVBN0oT74UhpCtEo4Ko+k3sNo+ykJFBBtGduw13V9vw="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.anychart.com/releases/v8/css/anychart-ui.min.css?hcode=c11e6e3cfefb406e8ce8d99fa8368d33"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdn.anychart.com/releases/v8/fonts/css/anychart-font.min.css?hcode=c11e6e3cfefb406e8ce8d99fa8368d33"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.anychart.com/geodata/2.0.0/custom/world/world.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js?hcode=c11e6e3cfefb406e8ce8d99fa8368d33"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-ui.min.js?hcode=c11e6e3cfefb406e8ce8d99fa8368d33"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-exports.min.js?hcode=c11e6e3cfefb406e8ce8d99fa8368d33"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-map.min.js?hcode=c11e6e3cfefb406e8ce8d99fa8368d33"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-data-adapter.min.js?hcode=c11e6e3cfefb406e8ce8d99fa8368d33"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.15/proj4.js"></script>
+    <script type="text/javascript">
+      anychart.onDocumentReady(function() {
+        // The data used in this sample was obtained via personal research
+        //below i link json file for entry point curved dots from state to state
+        anychart.data.loadJsonFile(
+          "connects.json", //will edit this doc with info on spyware sales routes
+          function(data) {
+            // Creates map chart
+            var map = anychart.connector();
 
-<body>
-    <script src=".../themes/animated.js"></script>
-    <script>
-    am4core.useTheme(am4themes_animated);
+            // Sets settings for map chart
+            map.padding([10, 10, 10, 10]);
+            map.geoData("anychart.maps.world");
+            map.interactivity().selectionMode("none");
+
+            map
+              .unboundRegions()
+              .enabled(true)
+              .fill("#E1E1E1")
+              .stroke("#D2D2D2");
+
+            // Sets title for map chart and customizes it
+            map
+              .title()
+              .enabled(true)
+              .useHtml(true)
+              .padding([0, 0, 20, 0])
+              .text(
+                "International Spyware Sales Exports<br/>" +
+                  '<span style="color:#212121; font-size: 13px;">According to research conducted by Emma Wolff, Mount Holyoke College departments of international relations and computer science.</span>'
+              );
+
+            // Sets credits data
+            map
+              .credits()
+              .enabled(true)
+              .text("research by Emma Wolff, Mount Holyoke College")
+              .text("research by Emma Wolff, Mount Holyoke College");
+
+            // Helper function to create several series
+            var createSeries = function(name, data, color) {
+              // Creates connector series for destinations and customizes them
+              var connectorSeries = map
+                .connector(data)
+                .name(name)
+                .fill(color)
+                .stroke("1.5 " + color)
+                .curvature(0);
+
+              connectorSeries
+                .hovered()
+                .stroke("1.5 #212121")
+                .fill("#212121");
+
+              connectorSeries
+                .markers()
+                .position("100%")
+                .size(20)
+                .fill(color)
+                .stroke("2 #E1E1E1");
+
+              connectorSeries
+                .hovered()
+                .markers()
+                .position("100%")
+                .size(20)
+                .fill("#212121")
+                .stroke("2 #455a64");
+
+              if (name == "More then 10%") {
+                connectorSeries.startSize(7).endSize(2);
+              } else if (name == "5 - 10%") {
+                connectorSeries.startSize(5).endSize(1.5);
+              } else if (name == "3 - 5%") {
+                connectorSeries.startSize(3).endSize(1);
+              } else {
+                connectorSeries.startSize(0).endSize(0);
+              }
+
+              // Sets settings for labels for the destination series
+              connectorSeries
+                .labels()
+                .enabled(true)
+                .offsetY(0)
+                .offsetX(0)
+                .fontSize(10)
+                .position("100%")
+                .format(function() {
+                  return this.getData("to");
+                });
+
+              connectorSeries
+                .hovered()
+                .labels()
+                .enabled(true)
+                .fontColor("#212121");
+
+              // Sets settings for legend items
+              connectorSeries
+                .legendItem()
+                .iconType("square")
+                .iconFill(color)
+                .iconStroke(false);
+
+              // Sets tooltip setting for the destination series
+              connectorSeries
+                .tooltip()
+                .useHtml(true)
+                .padding([8, 13, 10, 13])
+                .titleFormat("{%to}")
+                .fontSize(13)
+                .format(function() {
+                  return (
+                    '<span style="font-size: 12px; color: #cbcbcb">Total:</span> $' +
+                    this.getData("total") +
+                    " billion <br/>" +
+                    '<span style="font-size: 12px; color: #cbcbcb">Overall Exports Percent:</span> ' +
+                    this.getData("percent") +
+                    "%"
+                  );
+                });
+            };
+
+            // Creates Dataset from Sample data
+            var exportDataSet = anychart.data.set(data).mapAs();
+
+            // Creates 5 series, filtering the data by the amount of Fatalities
+            createSeries(
+              "Les then 0.5%",
+              exportDataSet.filter("percent", filter_function(0, 0.5)),
+              "#64b5f6"
+            );
+            createSeries(
+              "0.5 - 1.5%",
+              exportDataSet.filter("percent", filter_function(0.5, 1.5)),
+              "#1976d2"
+            );
+            createSeries(
+              "1.5 - 3%",
+              exportDataSet.filter("percent", filter_function(1.5, 3)),
+              "#1976d2"
+            );
+            createSeries(
+              "3 - 5%",
+              exportDataSet.filter("percent", filter_function(3, 5)),
+              "#355CB1"
+            );
+            createSeries(
+              "5 - 10%",
+              exportDataSet.filter("percent", filter_function(5, 10)),
+              "#5C3883"
+            );
+            createSeries(
+              "More then 10%",
+              exportDataSet.filter("percent", filter_function(10)),
+              "#880e4f"
+            );
+
+            // Turns on the legend for the sample
+            map
+              .legend()
+              .enabled(true)
+              .position("center-bottom")
+              .padding([20, 0, 0, 0])
+              .fontSize(10);
+
+            map
+              .legend()
+              .title()
+              .enabled(true)
+              .fontSize(13)
+              .padding([0, 0, 5, 0])
+              .text("Percent of Overall Exports");
+
+            // create zoom controls
+            var zoomController = anychart.ui.zoom();
+            zoomController.render(map);
+
+            // Sets container id for the chart
+            map.container("container");
+
+            // Initiates chart drawing
+            map.draw();
+          }
+        );
+      });
+
+      // Helper function to bind data field to the local var.
+      function filter_function(val1, val2) {
+        if (val2)
+          return function(fieldVal) {
+            return val1 <= fieldVal && fieldVal < val2;
+          };
+        else
+          return function(fieldVal) {
+            return val1 <= fieldVal;
+          };
+      }
     </script>
-    <script src=".../geodata/worldLow.js"></script>
-    <script>
-    map.geodata = am4geodata_worldLow;
-    </script>
-<!-- Header / Home-->
-<header class="w3-display-container w3-wide bgimg" id="home">
-    <div class="w3-display-middle w3-text-white w3-center">
-    <h1 class="snowdenquote">“Sometimes the scandal is not what law was broken, but what the law allows."</h1>
-    <h3 class="snowdenquote"> <b><i> Edward Snowden </i> </b></h3>
+  </head>
+  <body>
+    <!-- Header / Home-->
+    <header class="w3-display-container w3-wide bgimg" id="home">
+      <div class="w3-display-middle w3-text-white w3-center">
+        <h1 class="snowdenquote">
+          “Sometimes the scandal is not what law was broken, but what the law
+          allows."
+        </h1>
+        <h3 class="snowdenquote">
+          <b><i> Edward Snowden </i> </b>
+        </h3>
+      </div>
+    </header>
+
+    <!-- Navbar (sticky bottom) -->
+    <div class="w3-bottom w3-hide-small">
+      <div
+        class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off"
+      >
+        <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
+        <a href="#map" style="width:25%" class="w3-bar-item w3-button">Map</a>
+        <a
+          href="#whistleblowers"
+          style="width:25%"
+          class="w3-bar-item w3-button"
+          >Whistleblowers</a
+        >
+        <a
+          href="#about"
+          style="width:25%"
+          class="w3-bar-item w3-button w3-hover-black"
+          >About</a
+        >
+      </div>
+    </div>
+    <!-- Map -->
    
-  </div>
-</div>
-</header>
-
-<!-- Navbar (sticky bottom) -->
-<div class="w3-bottom w3-hide-small">
-  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
-    <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
-    <a href="#map" style="width:25%" class="w3-bar-item w3-button">Map</a>
-    <a href="#whistleblowers" style="width:25%" class="w3-bar-item w3-button">Whistleblowers</a>
-    <a href="#about" style="width:25%" class="w3-bar-item w3-button w3-hover-black">About</a>
-  </div>
-</div>
-
-<!-- Map -->
-<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="map">
-  <div class="w3-content">
-    <h1 class="w3-center w3-text-grey"><b>Spyware Sales Map</b></h1>
-    
-    <p><i>You all know us. And we all know you. We are getting married lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-      laboris nisi ut aliquip ex ea commodo consequat.
-    map here</i>
-    </p><br>
-    <p class="w3-center"><a href="#whistleblowers" class="w3-button w3-black w3-round w3-padding-large w3-large">Whistleblowers</a></p>
-  </div>
-</div>
-<div class="map">
-   <script> am4core.createFromConfig(config, map, MapChart) </script> 
-</div>
-<!-- Whistleblower information -->
-<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="whistleblowers">
-  <div class="w3-content">
-    <h1 class="w3-text-grey"><b>Esteemed Whistleblowers</b></h1>
-  <!-- put cards here -->
-  <div class="ui segment">
-      <img class="ui small left floated image" src="/pics/snowden.jpg">
-      <p>Edward Snowden is a former National Security Agency subcontractor who made headlines in 2013 when he leaked top-secret information about NSA surveillance activities.  Snowden collected top-secret documents regarding NSA domestic surveillance practices that he found disturbing and leaked them. After he fled to Hong Kong, he met with journalists from The Guardian and filmmaker Laura Poitras. Newspapers began printing the documents that he had leaked, many of them detailing the monitoring of American citizens. The U.S. has charged Snowden with violations of the Espionage Act, while many groups call him a hero. Snowden has found asylum in Russia and continues to speak about his work. Citizenfour, a documentary by Laura Poitras about his story, won an Oscar in 2015.</p>
-      <img class="ui small right floated image" src="/pics/assange.jpg">
-      <p>Julian Assage is an Australian computer programmer who founded the media organization Wikileaks. Practicing what he called “scientific journalism”—i.e., providing primary source materials with a minimum of editorial commentary—Assange, through WikiLeaks, released thousands of internal or classified documents from an assortment of government and corporate entities. WikiLeaks has published a number of scoops, including details about the U.S. military’s detention facility at Guantánamo Bay in Cuba, a secret membership roster of the British National Party, internal documents from the Scientology movement, and private e-mails from the University of East Anglia’s Climatic Research Unit.</p>
-       <img class="ui small left floated image" src="/pics/manning.png">
-      <p>Chelsea Manning was a U.S. Army intelligence analyst (Bradley Manning) delivered hundreds of thousands of classified documents that she found troubling to WikiLeaks, and in 2013 was sentenced to 35 years in prison for espionage and theft. In 2009, Manning was stationed at Forward Operating Base Hammer in Iraq, an isolated site near the Iranian border. Her duties as an intelligence analyst there gave her access to a great deal of classified information. Some of this information—including videos that showed unarmed civilians being shot at and killed—horrified Manning. In February 2010, while on leave in Rockville, Maryland, she passed this information—which amounted to hundreds of thousands of documents, many of them classified—to WikiLeaks. President Barack Obama commuted her sentence and she was released from prison in 2017.</p>
+    <div id="container"></div>
+    <div
+      class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min"
+      id="map"
+    >
+      <div class="w3-content">
+        <h1 class="w3-center w3-text-grey"><b>Spyware Sales Map</b></h1>
+        <p>
+          <i
+            >You all know us. And we all know you. We are getting married lorem
+            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. map here</i
+          >
+        </p>
+        <br />
+        <p class="w3-center">
+          <a
+            href="#whistleblowers"
+            class="w3-button w3-black w3-round w3-padding-large w3-large"
+            >Whistleblowers</a
+          >
+        </p>
+      </div>
+    </div>
+    <!-- Whistleblower information -->
+    <div
+      class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center"
+      id="whistleblowers"
+    >
+      <div class="w3-content">
+        <h1 class="w3-text-grey"><b>Esteemed Whistleblowers</b></h1>
+        <!-- put cards here -->
+        <div class="ui segment">
+          <img class="ui small left floated image" src="/pics/snowden.jpg" />
+          <p>
+            <b>Edward Snowden </b> is a former National Security Agency
+            subcontractor who made headlines in 2013 when he leaked top-secret
+            information about NSA surveillance activities. Snowden collected
+            top-secret documents regarding NSA domestic surveillance practices
+            that he found disturbing and leaked them. After he fled to Hong
+            Kong, he met with journalists from The Guardian and filmmaker Laura
+            Poitras. Newspapers began printing the documents that he had leaked,
+            many of them detailing the monitoring of American citizens. The U.S.
+            has charged Snowden with violations of the Espionage Act, while many
+            groups call him a hero. Snowden has found asylum in Russia and
+            continues to speak about his work. Citizenfour, a documentary by
+            Laura Poitras about his story, won an Oscar in 2015.
+          </p>
+          <img class="ui small right floated image" src="/pics/assange.jpg" />
+          <p>
+            <b>Julian Assage</b> is an Australian computer programmer who
+            founded the media organization Wikileaks. Practicing what he called
+            “scientific journalism”—i.e., providing primary source materials
+            with a minimum of editorial commentary—Assange, through WikiLeaks,
+            released thousands of internal or classified documents from an
+            assortment of government and corporate entities. WikiLeaks has
+            published a number of scoops, including details about the U.S.
+            military’s detention facility at Guantánamo Bay in Cuba, a secret
+            membership roster of the British National Party, internal documents
+            from the Scientology movement, and private e-mails from the
+            University of East Anglia’s Climatic Research Unit.
+          </p>
+          <img class="ui small left floated image" src="/pics/manning.png" />
+          <p>
+            <b>Chelsea Manning</b> was a U.S. Army intelligence analyst (Bradley
+            Manning) delivered hundreds of thousands of classified documents
+            that she found troubling to WikiLeaks, and in 2013 was sentenced to
+            35 years in prison for espionage and theft. In 2009, Manning was
+            stationed at Forward Operating Base Hammer in Iraq, an isolated site
+            near the Iranian border. Her duties as an intelligence analyst there
+            gave her access to a great deal of classified information. Some of
+            this information—including videos that showed unarmed civilians
+            being shot at and killed—horrified Manning. In February 2010, while
+            on leave in Rockville, Maryland, she passed this information—which
+            amounted to hundreds of thousands of documents, many of them
+            classified—to WikiLeaks. President Barack Obama commuted her
+            sentence and she was released from prison in 2017.
+          </p>
+        </div>
+      </div>
     </div>
 
-  </div>
-</div>
+    <!-- About section -->
+    <div
+      class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min"
+      id="about"
+    >
+      <div class="w3-content">
+        <h1 class="w3-center w3-text-grey"><b> About this project</b></h1>
+        <div class="ui segment">
+          <img class="ui small left floated image" src="/pics/emma.jpg" />
+          <h3>
+            <p><i>My name is Emma Wolff. </i></p>
+          </h3>
+          <p>
+            I am currently a junior at Mount Holyoke College, and I built this
+            site for my current course - Cyberpolitics. I was aiming to answer
+            the following questions with this work, as detailed in my project
+            proposal: <br />
+            <br />
+            1. The international trade of surveillance software and information
+            technology: Who sells to who? Do democratic countries sell spy tech
+            to corrupt regimes? If not, then who does? Who does the United
+            States sell to? <br />
+            2. How do these different countries use this technology? Why are
+            they buying this technology? Are democratic countries implementing
+            it differently than dictatorships, or the same?
+            <br />
+            3. Who are the main companies profiting from spyware sales to
+            regimes and where are they based? <br />
+            <br />
+            I have passions in the fields of cyber advancement, mass
+            surveillance, and domestic and foreign technological warfare. I have
+            likewise included three of the most controversial whistleblowers in
+            recent times to provide scope of how this technology is being used
+            undemocratically against citizens and who has been spearheading this
+            narrative. In order to create this site I conducted quantative and
+            qualitative research to produce inputs for the interactive map I
+            have created above. I would like to thank my professor for allowing
+            me to pursue my passions of technology and foreign affairs by
+            creating this project as my course final.
+          </p>
+        </div>
+      </div>
+    </div>
 
-
-<!-- About section -->
-<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="about">
-    <div class="w3-content">
-      <h1 class="w3-center w3-text-grey"><b> About this project</b></h1>
-      <div class="ui segment">
-        <img class="ui small left floated image" src="/pics/emma.jpg">
-      <h3> <p><i>My name is Emma Wolff. </i> </h3>
-        <p>I am currently a junior at Mount Holyoke College, and I built this site for my current course - Cyberpolitics. I was aiming to answer the following questions with this work, as detailed in my project proposal: <br> <br> 1.	The international trade of surveillance software and information technology: Who sells to who? Do democratic countries sell spy tech to corrupt regimes? If not, then who does? Who does the United States sell to? <br> 
-          2.	How do these different countries use this technology? Why are they buying this technology? Are democratic countries implementing it differently than dictatorships, or the same?
-          <br>  3.	Who are the main companies profiting from spyware sales to regimes and where are they based? <br> <br>
-          I have passions in the fields of cyber advancement, mass surveillance, and domestic and foreign technological warfare. I have likewise included three of the most controversial whistleblowers in recent times to provide scope of how this technology is being used undemocratically against citizens and who has been spearheading this narrative. 
-      In order to create this site I conducted quantative and qualitative research to produce inputs for the interactive map I have created above. I would like to thank my professor for allowing me to pursue my passions of technology and foreign affairs by creating this project as my course final.</p>
+    <!-- popup section -->
+    <div
+      class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide"
+      id="popup"
+    >
+      <h1>Do you trust your government?</h1>
+      <p class="w3-large"></p>
+      <p class="w3-xlarge">
+        <button
+          onclick="document.getElementById('id01').style.display='block'"
+          class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off"
+          style="padding:8px 60px"
+        >
+          Yes
+        </button>
       </p>
     </div>
-  </div>
-</div>
 
-<!-- popup section -->
-<div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="popup">
-  <h1>Do you trust your government?</h1>
-  <p class="w3-large"> </p>
-  <p class="w3-xlarge">
-    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">Yes</button>
-  </p>
-</div>
-
-<!-- RSVP modal (need to make close lol) -->
-<div id="id01" class="w3-modal">
-  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
-    <div class="w3-container w3-white w3-center">
-      <h1 class="w3-wide">You shouldn't.</h1>
-      <p><i>Sincerely, anyone not in ignorance.</i></p>      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+    <!-- RSVP modal -->
+    <div id="id01" class="w3-modal">
+      <div
+        class="w3-modal-content w3-card-4 w3-animate-zoom"
+        style="padding:32px;max-width:600px"
+      >
+        <div class="w3-container w3-white w3-center">
+          <h1 class="w3-wide">You shouldn't.</h1>
+          <p><i>Sincerely, anyone not in ignorance.</i></p>
+          <span
+            onclick="document.getElementById('id01').style.display='none'"
+            class="w3-button w3-display-topright"
+            >&times;</span
+          >
         </div>
+      </div>
     </div>
-  </div>
 
-
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-16">
-  <p>powered by <a href="https://emmawolff.netlify.com" title="W3.CSS" target="_blank" class="w3-hover-text-green">emma wolff</a></p>
-</footer>
-<div class="w3-hide-small" style="margin-bottom:32px"> </div>
-
-</body>
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-16">
+      <p>
+        powered by
+        <a
+          href="https://emmawolff.netlify.com"
+          title="W3.CSS"
+          target="_blank"
+          class="w3-hover-text-green"
+          >emma wolff</a
+        >
+      </p>
+    </footer>
+    <div class="w3-hide-small" style="margin-bottom:32px"></div>
+  </body>
 </html>
