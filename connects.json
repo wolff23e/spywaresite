@@ -1,220 +1,239 @@
-[{
-  "points": [39.90487, 116.402231, 48.207834, 16.373794],
-  "total": 2.4,
-  "percent": 0.1,
-  "to": "Austria",
-  "curvature": -0.15,
-  "label": {
-      "position": "55%",
+[
+  {
+    "points": [39.90487, 116.402231, -37.157467, -64.316464],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 0.1,
+    "to": "Argentina",
+    "curvature": -0.15,
+    "label": {
+      "position": "95%",
       "anchor": "bottom"
-  }
-}, {
-  "points": [39.90487, 116.402231, 59.912917, 10.75174],
-  "total": 2.7,
-  "percent": 0.1,
-  "to": "Norway",
-  "curvature": 0.75,
-  "label": {
+    }
+  },
+  {
+    "points": [39.90487, 116.402231, 17.161397, -1.311841],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 0.1,
+    "to": "Mali",
+    "curvature": 0.75,
+    "label": {
       "position": "55%"
-  }
-}, {
-  "points": [39.90487, 116.402231, 46.947939, 7.448878],
-  "total": 3.1,
-  "percent": 0.1,
-  "to": "Switzerland",
-  "curvature": -0.55,
-  "label": {
-      "anchor": "topRight",
-      "position": "50%",
-      "offsetY": -5,
-      "offsetX": 0
-  }
-}, {
-  "points": [39.90487, 116.402231, 59.328568, 18.068252],
-  "total": 7.2,
-  "percent": 0.3,
-  "to": "Sweden",
-  "curvature": 0.5,
-  "label": {
+    }
+  },
+  {
+    "points": [39.90487, 116.402231, 16.942451, 9.712215],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 0.1,
+    "to": "Niger",
+    "curvature": -0.55,
+    "label": {
+      "position": "85%"
+    }
+  },
+  {
+    "points": [39.90487, 116.402231, 0.500765, 37.609136],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 0.3,
+    "to": "Kenya",
+    "curvature": 0.5,
+    "label": {
       "position": "60%"
-  }
-}, {
-  "points": [39.90487, 116.402231, 52.227476, 21.011642],
-  "total": 14.3,
-  "percent": 0.6,
-  "to": "Poland",
-  "curvature": -0.05,
-  "label": {
-      "anchor": "topLeft",
-      "offsetX": 10,
-      "offsetY": 5
-  }
-}, {
-  "points": [39.90487, 116.402231, 50.847534, 4.350937],
-  "total": 17.2,
-  "percent": 0.7,
-  "to": "Belgium",
-  "curvature": 0.45,
-  "label": {
-      "position": "50%"
-  }
-}, {
-  "points": [39.90487, 116.402231, 39.932089, 32.859522],
-  "total": 19.3,
-  "percent": 0.8,
-  "to": "Turkey",
-  "curvature": -0.15,
-  "label": {
+    }
+  },
+  {
+    "points": [39.90487, 116.402231, 7.837254, 39.635693],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 0.6,
+    "to": "Ethiopia",
+    "curvature": -0.05,
+    "label": {
+      "position": "85%"
+    }
+  },
+  {
+    "points": [39.90487, 116.402231, 26.820553, 30.802498],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 0.7,
+    "to": "Eygpt",
+    "curvature": 0.45,
+    "label": {
+      "position": "98%"
+    }
+  },
+  {
+    "points": [39.90487, 116.402231, 39.932089, 32.859522],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 0.8,
+    "to": "Turkey",
+    "curvature": -0.15,
+    "label": {
       "anchor": "top",
       "position": "70%",
       "offsetY": -3
-  }
-}, {
-  "points": [39.90487, 116.402231, 24.710437, 46.675164],
-  "total": 20.6,
-  "percent": 0.9,
-  "to": "Saudi Arabia",
-  "curvature": -0.3,
-  "label": {
+    }
+  },
+  {
+    "points": [39.90487, 116.402231, 24.710437, 46.675164],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 0.9,
+    "to": "Saudi Arabia",
+    "curvature": -0.3,
+    "label": {
       "anchor": "leftBottom",
       "offsetX": -5
-  }
-}, {
-  "points": [39.90487, 116.402231, 40.40615, -3.701934],
-  "total": 21.5,
-  "percent": 0.9,
-  "to": "Spain",
-  "curvature": -0.55,
-  "label": {
+    }
+  },
+  {
+    "points": [39.90487, 116.402231, 40.40615, -3.701934],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 0.9,
+    "to": "Spain",
+    "curvature": -0.55,
+    "label": {
       "anchor": "rightTop"
-  }
-}, {
-  "points": [39.90487, 116.402231, 41.901737, 12.49625],
-  "total": 28.8,
-  "percent": 1.2,
-  "to": "Italy",
-  "curvature": -0.45,
-  "label": {
-      "anchor": "bottom",
-      "offsetY": 3,
-      "position": "75%"
-  }
-}, {
-  "points": [39.90487, 116.402231, 48.836364, 2.355807],
-  "total": 29,
-  "percent": 1.2,
-  "to": "France",
-  "curvature": -0.6,
-  "label": {
+    }
+  },
+  {
+    "points": [39.90487, 116.402231, -1.831239, -78.183406],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 1.2,
+    "to": "Ecudor",
+    "curvature": -0.45,
+    "label": {
+      "position": "85%"
+    }
+  },
+  {
+    "points": [39.90487, 116.402231, 48.836364, 2.355807],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 1.2,
+    "to": "France",
+    "curvature": -0.6,
+    "label": {
       "anchor": "rightTop"
-  }
-}, {
-  "points": [39.90487, 116.402231, 45.411673, -75.69629],
-  "total": 30,
-  "percent": 1.3,
-  "to": "Canada",
-  "curvature": -0.51
-}, {
-  "points": [39.90487, 116.402231, 19.462558, -99.136756],
-  "total": 32.3,
-  "percent": 1.4,
-  "to": "Mexico",
-  "curvature": -0.6
-}, {
-  "points": [39.90487, 116.402231, 13.756717, 100.501634],
-  "total": 34.3,
-  "percent": 1.5,
-  "to": "Thailand",
-  "curvature": -0.1
-}, {
-  "points": [39.90487, 116.402231, -15.80048, -47.88187],
-  "total": 34.9,
-  "percent": 1.5,
-  "to": "Brazil",
-  "curvature": -0.3
-}, {
-  "points": [39.90487, 116.402231, -6.191635, 106.834857],
-  "total": 39.1,
-  "percent": 1.7,
-  "to": "Indonesia"
-}, {
-  "points": [39.90487, 116.402231, -30.592659, 145.943667],
-  "total": 39.1,
-  "percent": 1.7,
-  "to": "Australia"
-}, {
-  "points": [39.90487, 116.402231, 1.354784, 103.867475],
-  "total": 48.9,
-  "percent": 2.1,
-  "to": "Singapore"
-}, {
-  "points": [39.90487, 116.402231, 55.747362, 37.621273],
-  "total": 53.7,
-  "percent": 2.3,
-  "to": "Russia",
-  "curvature": 0.1,
-  "label": {
+    }
+  },
+  {
+    "points": [39.90487, 116.402231, 45.411673, -75.69629],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 1.3,
+    "to": "Canada",
+    "curvature": -0.51
+  },
+  {
+    "points": [39.90487, 116.402231, 19.462558, -99.136756],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 1.4,
+    "to": "Mexico",
+    "curvature": -0.6
+  },
+  {
+    "points": [39.90487, 116.402231, 13.756717, 100.501634],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 1.5,
+    "to": "Thailand",
+    "curvature": -0.1
+  },
+  {
+    "points": [39.90487, 116.402231, -15.80048, -47.88187],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 1.5,
+    "to": "Brazil",
+    "curvature": -0.3
+  },
+  {
+    "points": [39.90487, 116.402231, -6.191635, 106.834857],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 1.7,
+    "to": "Indonesia"
+  },
+  {
+    "points": [39.90487, 116.402231, -30.559482, 22.937506],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 1.7,
+    "to": "South Africa"
+  },
+  {
+    "points": [39.90487, 116.402231, 1.354784, 103.867475],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 2.1,
+    "to": "Singapore"
+  },
+  {
+    "points": [39.90487, 116.402231, 55.747362, 37.621273],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 2.3,
+    "to": "Russia",
+    "curvature": 0.1,
+    "label": {
       "anchor": "topLeft",
       "offsetX": 10
-  }
-}, {
-  "points": [39.90487, 116.402231, 28.610198, 77.207584],
-  "total": 54.2,
-  "percent": 2.3,
-  "to": "India",
-  "curvature": -0.3,
-  "label": {
+    }
+  },
+  {
+    "points": [39.90487, 116.402231, -32.522779, -55.765835],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 2.3,
+    "to": "Uruguay",
+    "curvature": -0.3,
+    "label": {
       "anchor": "bottom"
+    }
+  },
+  {
+    "points": [39.90487, 116.402231, -16.290154,	-63.588653],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 2.4,
+    "to": "Bolivia",
+    "curvature": 0.95,
+    "label": {
+      "position": "95%"
+    }
+  },
+  {
+    "points": [39.90487, 116.402231, 52.369775, 4.89441],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 2.8,
+    "to": "Netherlands",
+    "curvature": 0.7,
+    "label": {
+      "position": "100%"
+    }
+  },
+  {
+    "points": [39.90487, 116.402231, 52.511693, 13.403121],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 3.1,
+    "to": "Germany",
+    "curvature": 0.35,
+    "label": {
+      "position": "85%"
+    }
+  },
+  {
+    "points": [39.90487, 116.402231, 	9.081999,	8.675277],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 4.3,
+    "to": "Nigeria",
+    "label": {
+      "position": "85%"
+    }
+  },
+  {
+    "points": [39.90487, 116.402231, 7.369722,	12.354722],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 6.4,
+    "to": "Cameroon",
+    "curvature": 0.3,
+    "label": {
+      "position": "85%"
+    }
+  },
+  {
+    "points": [39.90487, 116.402231, -11.202692,	17.873887],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "to": "Angola",
+    "curvature": -0.5
   }
-}, {
-  "points": [39.90487, 116.402231, 52.667078, -0.95592],
-  "total": 57.2,
-  "percent": 2.4,
-  "to": "United Kindom",
-  "curvature": 0.95,
-  "label": {
-      "position": "50%"
-  }
-}, {
-  "points": [39.90487, 116.402231, 52.369775, 4.89441],
-  "total": 64.9,
-  "percent": 2.8,
-  "to": "Netherlands",
-  "curvature": 0.7,
-  "label": {
-      "position": "50%"
-  }
-}, {
-  "points": [39.90487, 116.402231, 52.511693, 13.403121],
-  "total": 72.7,
-  "percent": 3.1,
-  "to": "Germany",
-  "curvature": 0.35,
-  "label": {
-      "position": "45%",
-      "anchor": "top"
-  }
-}, {
-  "points": [39.90487, 116.402231, 37.548124, 126.99126],
-  "total": 100.4,
-  "percent": 4.3,
-  "to": "South Korea",
-  "label": {
-      "offsetY": 10
-  }
-}, {
-  "points": [39.90487, 116.402231, 36.653054, 137.141329],
-  "total": 149.6,
-  "percent": 6.4,
-  "to": "Japan",
-  "curvature": 0.3,
-  "label": {
-      "anchor": "leftBottom"
-  }
-}, {
-  "points": [39.90487, 116.402231, 38.884053, -77.033513],
-  "total": 397.2,
-  "percent": 17,
-  "to": "United States",
-  "curvature": -0.5
-}]
+]
