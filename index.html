@@ -146,11 +146,15 @@
                 .fontSize(13)
                 .format(function() {
                   return (
+                    '<span style="font-size: 12px; color: #cbcbcb">Country Importing:</span> ' +
+                    this.getData("to") +
+                    "<br/>"  +
+                    '<span style="font-size: 12px; color: #cbcbcb">Country Exported:</span> ' +
+                    this.getData("from") +
+                    "<br/>" 
+                    +
                     '<span style="font-size: 12px; color: #cbcbcb">Source:</span>' +
                     this.getData("source") +
-                    "<br/>" +
-                    '<span style="font-size: 12px; color: #cbcbcb">Country:</span> ' +
-                    this.getData("to") +
                     "<br/>" 
                   );
                 });

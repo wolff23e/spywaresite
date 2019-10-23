@@ -3,6 +3,7 @@
     "points": [39.90487, 116.402231, -37.157467, -64.316464],
     "source": "Professor Sheena Greitens Research",
     "percent": 0.1,
+    "from": "China",
     "to": "Argentina",
     "curvature": -0.15,
     "label": {
@@ -14,16 +15,18 @@
     "points": [39.90487, 116.402231, 17.161397, -1.311841],
     "source": "Professor Sheena Greitens Research",
     "percent": 0.1,
+    "from": "China",
     "to": "Mali",
     "curvature": 0.75,
     "label": {
-      "position": "55%"
+      "position": "95%"
     }
   },
   {
     "points": [39.90487, 116.402231, 16.942451, 9.712215],
     "source": "Professor Sheena Greitens Research",
     "percent": 0.1,
+    "from": "China",
     "to": "Niger",
     "curvature": -0.55,
     "label": {
@@ -35,9 +38,10 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 0.3,
     "to": "Kenya",
+    "from": "China",
     "curvature": 0.5,
     "label": {
-      "position": "60%"
+      "position": "100%"
     }
   },
   {
@@ -45,6 +49,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 0.6,
     "to": "Ethiopia",
+    "from": "China",
     "curvature": -0.05,
     "label": {
       "position": "85%"
@@ -55,6 +60,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 0.7,
     "to": "Eygpt",
+    "from": "China",
     "curvature": 0.45,
     "label": {
       "position": "98%"
@@ -64,6 +70,7 @@
     "points": [39.90487, 116.402231, 39.932089, 32.859522],
     "source": "Professor Sheena Greitens Research",
     "percent": 0.8,
+    "from": "China",
     "to": "Turkey",
     "curvature": -0.15,
     "label": {
@@ -76,6 +83,7 @@
     "points": [39.90487, 116.402231, 24.710437, 46.675164],
     "source": "Professor Sheena Greitens Research",
     "percent": 0.9,
+    "from": "China",
     "to": "Saudi Arabia",
     "curvature": -0.3,
     "label": {
@@ -87,6 +95,7 @@
     "points": [39.90487, 116.402231, 40.40615, -3.701934],
     "source": "Professor Sheena Greitens Research",
     "percent": 0.9,
+    "from": "China",
     "to": "Spain",
     "curvature": -0.55,
     "label": {
@@ -97,6 +106,7 @@
     "points": [39.90487, 116.402231, -1.831239, -78.183406],
     "source": "Professor Sheena Greitens Research",
     "percent": 1.2,
+    "from": "China",
     "to": "Ecudor",
     "curvature": -0.45,
     "label": {
@@ -107,6 +117,7 @@
     "points": [39.90487, 116.402231, 48.836364, 2.355807],
     "source": "Professor Sheena Greitens Research",
     "percent": 1.2,
+    "from": "China",
     "to": "France",
     "curvature": -0.6,
     "label": {
@@ -118,12 +129,14 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 1.3,
     "to": "Canada",
+    "from": "China",
     "curvature": -0.51
   },
   {
     "points": [39.90487, 116.402231, 19.462558, -99.136756],
     "source": "Professor Sheena Greitens Research",
     "percent": 1.4,
+    "from": "China",
     "to": "Mexico",
     "curvature": -0.6
   },
@@ -131,6 +144,7 @@
     "points": [39.90487, 116.402231, 13.756717, 100.501634],
     "source": "Professor Sheena Greitens Research",
     "percent": 1.5,
+    "from": "China",
     "to": "Thailand",
     "curvature": -0.1
   },
@@ -138,6 +152,7 @@
     "points": [39.90487, 116.402231, -15.80048, -47.88187],
     "source": "Professor Sheena Greitens Research",
     "percent": 1.5,
+    "from": "China",
     "to": "Brazil",
     "curvature": -0.3
   },
@@ -145,24 +160,28 @@
     "points": [39.90487, 116.402231, -6.191635, 106.834857],
     "source": "Professor Sheena Greitens Research",
     "percent": 1.7,
+    "from": "China",
     "to": "Indonesia"
   },
   {
     "points": [39.90487, 116.402231, -30.559482, 22.937506],
     "source": "Professor Sheena Greitens Research",
     "percent": 1.7,
+    "from": "China",
     "to": "South Africa"
   },
   {
     "points": [39.90487, 116.402231, 1.354784, 103.867475],
     "source": "Professor Sheena Greitens Research",
     "percent": 2.1,
+    "from": "China",
     "to": "Singapore"
   },
   {
     "points": [39.90487, 116.402231, 55.747362, 37.621273],
     "source": "Professor Sheena Greitens Research",
     "percent": 2.3,
+    "from": "China",
     "to": "Russia",
     "curvature": 0.1,
     "label": {
@@ -174,6 +193,7 @@
     "points": [39.90487, 116.402231, -32.522779, -55.765835],
     "source": "Professor Sheena Greitens Research",
     "percent": 2.3,
+    "from": "China",
     "to": "Uruguay",
     "curvature": -0.3,
     "label": {
@@ -181,9 +201,10 @@
     }
   },
   {
-    "points": [39.90487, 116.402231, -16.290154,	-63.588653],
+    "points": [39.90487, 116.402231, -16.290154, -63.588653],
     "source": "Professor Sheena Greitens Research",
     "percent": 2.4,
+    "from": "China",
     "to": "Bolivia",
     "curvature": 0.95,
     "label": {
@@ -194,6 +215,7 @@
     "points": [39.90487, 116.402231, 52.369775, 4.89441],
     "source": "Professor Sheena Greitens Research",
     "percent": 2.8,
+    "from": "China",
     "to": "Netherlands",
     "curvature": 0.7,
     "label": {
@@ -204,25 +226,28 @@
     "points": [39.90487, 116.402231, 52.511693, 13.403121],
     "source": "Professor Sheena Greitens Research",
     "percent": 3.1,
+    "from": "China",
     "to": "Germany",
     "curvature": 0.35,
     "label": {
-      "position": "85%"
+      "position": "95%"
     }
   },
   {
-    "points": [39.90487, 116.402231, 	9.081999,	8.675277],
+    "points": [39.90487, 116.402231, 9.081999, 8.675277],
     "source": "Professor Sheena Greitens Research",
     "percent": 4.3,
+    "from": "China",
     "to": "Nigeria",
     "label": {
       "position": "85%"
     }
   },
   {
-    "points": [39.90487, 116.402231, 7.369722,	12.354722],
+    "points": [39.90487, 116.402231, 7.369722, 12.354722],
     "source": "Professor Sheena Greitens Research",
     "percent": 6.4,
+    "from": "China",
     "to": "Cameroon",
     "curvature": 0.3,
     "label": {
@@ -230,10 +255,316 @@
     }
   },
   {
-    "points": [39.90487, 116.402231, -11.202692,	17.873887],
+    "points": [39.90487, 116.402231, -11.202692, 17.873887],
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
+    "from": "China",
     "to": "Angola",
+    "curvature": -0.5
+  },
+  {
+    "points": [39.90487, 116.402231, -29.609988, 28.233608],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Lesotho",
+    "curvature": -0.5
+  },
+  {
+    "points": [39.90487, 116.402231, -18.766947, 46.869107],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Madagascar",
+    "curvature": -0.5
+  },
+  {
+    "points": [39.90487, 116.402231, -6.369028, 34.888822],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Tanzania",
+    "curvature": -0.5
+  },
+  {
+    "points": [39.90487, 116.402231, 1.373333, 32.290275],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Uganda",
+    "curvature": -0.5
+  },
+  {
+    "points": [39.90487, 116.402231, 6.42375, -66.58973],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Venezuela",
+    "curvature": -0.5
+  },
+  {
+    "points": [39.90487, 116.402231, 8.537981, -80.782127],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Panama",
+    "curvature": -0.5
+  },
+  {
+    "points": [39.90487, 116.402231, 28.033886, 1.659626],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Algeria",
+    "curvature": -0.5
+  },
+  {
+    "points": [39.90487, 116.402231, 31.791702, -7.09262],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Morocco",
+    "curvature": -0.5
+  },
+  {
+    "points": [39.90487, 116.402231, 31.791702, -7.09262],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Colombia",
+    "curvature": -0.5
+  },
+  {
+    "points": [39.90487, 116.402231, -35.675147, -71.542969],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Chile",
+    "curvature": -0.5
+  },
+  {
+    "points": [39.90487, 116.402231, 21.512583, 55.923255],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Oman",
+    "curvature": -0.5
+  },
+  {
+    "points": [39.90487, 116.402231, 33.223191, 43.679291],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Iraq",
+    "curvature": -0.5
+  },
+  {
+    "points": [39.90487, 116.402231, 32.427908, 53.688046],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "to": "Iran",
+    "curvature": -0.5
+  },
+  {
+    "points": [39.90487, 116.402231, 30.375321, 69.345116],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Pakistan",
+    "curvature": -0.5
+  },
+  {
+    "points": [39.90487, 116.402231, 19.015438, 29.154857],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Zimbabwe",
+    "curvature": -0.5
+  },
+  {
+    "points": [39.90487, 116.402231, -22.328474, 24.684866],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Botswana",
+    "curvature": -0.5
+  },
+
+  {
+    "points": [39.90487, 116.402231, 49.817492, 15.472962],
+    "source": "Professor Sheena Greitens Research",
+    "from": "China",
+    "percent": 17,
+    "to": "Czech Republic",
+    "curvature": -0.5
+  },
+  {
+    "points": [39.90487, 116.402231, 55.3781, 3.436],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "United Kingdom",
+    "curvature": -0.5
+  },
+  {
+    "points": [39.90487, 116.402231, 45.943161, 24.96676],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Romania",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [39.90487, 116.402231, 48.379433,	31.16558],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Ukraine",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [39.90487, 116.402231, 	53.709807,	27.953389],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Belarus",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [39.90487, 116.402231, 	38.969719,	59.556278],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Turkmenistan",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [39.90487, 116.402231, 		41.377491,	64.585262],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Uzbekistan",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [39.90487, 116.402231, 	48.019573,	66.923684],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Kazakhstan",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [39.90487, 116.402231, 46.862496,	103.846656],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Mongolia",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [39.90487, 116.402231, 	21.913965,	95.956223],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Myanmar",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [39.90487, 116.402231, 	41.20438,	74.766098],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Kyrgyzstan",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [39.90487, 116.402231, 19.85627,	102.495496],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Laos",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [39.90487, 116.402231, 	12.565679,	104.990963],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Cambodia",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [39.90487, 116.402231, 	4.210484,	101.975766],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Malaysia",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [39.90487, 116.402231, 12.879721,	121.774017],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Philippines",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [39.90487, 116.402231, -6.314993,	143.95555],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Papua New Guinea",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [39.90487, 116.402231, 	40.339852,	127.510093],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "North Korea",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [39.90487, 116.402231,47.162494	,19.503304],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Hungary",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [39.90487, 116.402231,44.016521,	21.005859],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Serbia",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [39.90487, 116.402231,	45.1,	15.2],
+    "source": "Professor Sheena Greitens Research",
+    "percent": 17,
+    "from": "China",
+    "to": "Croatia",
     "curvature": -0.5
   }
 ]
