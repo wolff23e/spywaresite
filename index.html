@@ -63,7 +63,7 @@
               .padding([0, 0, 20, 0])
               .text(
                 "International Software Spyware Sales Linkages <br/>" +
-                  '<span style="color:#212121; font-size: 13px;">According to research conducted by Emma Wolff, Mount Holyoke College departments of international relations and computer science.</span>'
+                  '<span style="color:#212121; font-size: 13px;">According to research conducted by E.Wolff, Mount Holyoke College departments of international relations and computer science.</span>'
               );
 
             // Sets credits data
@@ -146,13 +146,13 @@
                 .fontSize(13)
                 .format(function() {
                   return (
-                    '<span style="font-size: 12px; color: #cbcbcb">Country Importing:</span> ' +
-                    this.getData("to") +
-                    "<br/>"  +
                     '<span style="font-size: 12px; color: #cbcbcb">Country Exported:</span> ' +
                     this.getData("from") +
                     "<br/>" 
                     +
+                    '<span style="font-size: 12px; color: #cbcbcb">Country Importing:</span> ' +
+                    this.getData("to") +
+                    "<br/>"  +
                     '<span style="font-size: 12px; color: #cbcbcb">Source:</span>' +
                     this.getData("source") +
                     "<br/>" 
@@ -238,7 +238,18 @@
   </head>
   <body>
     
-
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg" id="home">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="snowdenquote">
+      “Sometimes the scandal is not what law was broken, but what the law
+      allows."
+    </h1>
+    <h3 class="snowdenquote">
+      <b><i> Edward Snowden </i> </b>
+    </h3>
+  </div>
+</header>
     <!-- Navbar (sticky bottom) -->
     <div class="w3-bottom w3-hide-small">
       <div
@@ -293,18 +304,12 @@
         </p>
       </div>
     </div>
-    <!-- Header / Home-->
-    <header class="w3-display-container w3-wide bgimg" id="home">
-      <div class="w3-display-middle w3-text-white w3-center">
-        <h1 class="snowdenquote">
-          “Sometimes the scandal is not what law was broken, but what the law
-          allows."
-        </h1>
-        <h3 class="snowdenquote">
-          <b><i> Edward Snowden </i> </b>
-        </h3>
-      </div>
-    </header>
+    
+    <div>
+      <p>
+        <img class="info" src="/pics/techuse.png" />
+      </p>
+    </div>
     <!-- Whistleblower information -->
     <div
       class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center"
@@ -373,10 +378,10 @@
         <div class="ui segment">
           <img class="ui small left floated image" src="/pics/emma.jpg" />
           <h3>
-            <p><i>My name is Emma Wolff. </i></p>
+            <p><i>My name is E.Wolff. </i></p>
           </h3>
           <p>
-            I am currently a junior at Mount Holyoke College, and I built this
+            I am currently a student at Mount Holyoke College, and I built this
             site for my current course - Cyberpolitics. I was aiming to answer
             the following questions with this work, as detailed in my project
             proposal: <br />

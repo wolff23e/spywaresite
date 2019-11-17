@@ -566,5 +566,301 @@
     "from": "China",
     "to": "Croatia",
     "curvature": -0.5
+  },
+  {
+    "points": [31.046051,	34.851612, 23.885942,	45.079162],
+    "source": " Business Insider",
+    "percent": 17,
+    "from": "Israel",
+    "to": "Saudi Arabia",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612, 25.930414,	50.637772],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "Bahrain",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612, -0.789275,	113.921327],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "Indonesia",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612,-11.202692,	17.873887],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "Angola",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612,-18.665695,	35.529562],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "Mozambique",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612,18.735693, -70.162651],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "Dominican Republic",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612,40.143105,	47.576927],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "Azerbaijan",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612,-26.522503,	31.465866],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "Swaziland",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612,-22.328474,	24.684866],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "Botswana",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612,23.684994,	90.356331],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "Bangladesh",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612,13.794185,	-88.89653],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "El Salvador",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612, 4.210484,	101.975766],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "Malaysia",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612, 8.537981,	-80.782127],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "Panama",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612, 12.865416,	-85.207229],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "Nicaragua",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612, 14.058324,	108.2771999],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "Vietnam",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612, 23.634501,	-102.552784],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "Mexico",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612, 41.377491,	64.585262],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "Uzbekistan",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612, 48.019573,	66.923684],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "Kazakhstan",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612, 9.145,	40.489673],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "Ethiopia",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612, 12.862807,	30.217636],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "South Sudan",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612, 15.199999,	-86.241905],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "Honduras",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612, 10.691803,	-61.222503],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "Trinidad and Tobago",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612, -9.189967,	-75.015152],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "Peru",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612, 4.570868,	-74.297333],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "Colombia",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612, 4.570868,	-74.297333],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "Uganda",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612, 9.081999, 8.675277],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "Nigeria",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612, -1.831239,	-78.183406],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "Ecuador",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [31.046051,	34.851612, 23.424076,	53.847818],
+    "source": "Haaretz",
+    "percent": 17,
+    "from": "Israel",
+    "to": "United Arab Emirates",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 15.199999,	-86.241905],
+    "source": "The Guardian",
+    "percent": 17,
+    "from": "United Kingdom",
+    "to": "Honduras",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 23.885942,	45.079162],
+    "source": "The Guardian",
+    "percent": 17,
+    "from": "United Kingdom",
+    "to": "Saudi Arabia",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 25.930414,	50.637772],
+    "source": "The Guardian",
+    "percent": 17,
+    "from": "United Kingdom",
+    "to": "Bahrain",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 39.932089, 32.859522],
+    "source": "The Guardian",
+    "percent": 17,
+    "from": "United Kingdom",
+    "to": "Turkey",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 26.820553,	30.802498],
+    "source": "The Guardian",
+    "percent": 17,
+    "from": "United Kingdom",
+    "to": "Egypt ",
+    "curvature": -0.5
   }
 ]
