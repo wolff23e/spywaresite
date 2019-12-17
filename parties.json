@@ -1,0 +1,3465 @@
+{
+  "map": {
+    "zIndex": 0,
+    "enabled": true,
+    "type": "map",
+    "title": {
+      "zIndex": 80,
+      "enabled": true,
+      "fontSize": 16,
+      "fontFamily": "Verdana, Helvetica, Arial, sans-serif",
+      "fontColor": "#7c868e",
+      "fontOpacity": 1,
+      "fontDecoration": "none",
+      "fontStyle": "normal",
+      "fontVariant": "normal",
+      "fontWeight": "normal",
+      "letterSpacing": "normal",
+      "textDirection": "ltr",
+      "lineHeight": "normal",
+      "textIndent": 0,
+      "vAlign": "top",
+      "hAlign": "center",
+      "wordWrap": "normal",
+      "wordBreak": "normal",
+      "textOverflow": "",
+      "selectable": false,
+      "disablePointerEvents": false,
+      "useHtml": true,
+      "width": null,
+      "height": null,
+      "align": "center",
+      "text": "Countries by System of Government<br/><span  style=\"color:#929292; font-size: 12px;\">(Data was collected from Wikipedia country articles, 2015)</span>",
+      "margin": {
+        "left": 0,
+        "top": 0,
+        "bottom": 0,
+        "right": 0
+      },
+      "padding": {
+        "left": 0,
+        "top": 10,
+        "bottom": 30,
+        "right": 0
+      },
+      "background": {
+        "zIndex": 0,
+        "enabled": false
+      }
+    },
+    "background": {
+      "zIndex": 0.5,
+      "enabled": true
+    },
+    "tooltip": {
+      "enabled": true,
+      "useHtml": true,
+      "title": {
+        "zIndex": 1,
+        "enabled": true,
+        "fontSize": 14,
+        "fontFamily": "Verdana, Helvetica, Arial, sans-serif",
+        "fontColor": "#7c868e",
+        "fontOpacity": 1,
+        "fontDecoration": "none",
+        "fontStyle": "normal",
+        "fontVariant": "normal",
+        "fontWeight": "normal",
+        "letterSpacing": "normal",
+        "textDirection": "ltr",
+        "lineHeight": "normal",
+        "textIndent": 0,
+        "vAlign": "top",
+        "hAlign": "left",
+        "wordWrap": "normal",
+        "wordBreak": "normal",
+        "textOverflow": "",
+        "selectable": false,
+        "disablePointerEvents": false,
+        "useHtml": false,
+        "width": null,
+        "height": null,
+        "align": "left",
+        "orientation": "top",
+        "rotation": 0,
+        "text": "",
+        "margin": {
+          "left": 0,
+          "top": 0,
+          "bottom": 0,
+          "right": 0
+        },
+        "padding": {
+          "left": 0,
+          "top": 0,
+          "bottom": 0,
+          "right": 0
+        },
+        "background": {
+          "enabled": false
+        }
+      },
+      "separator": {
+        "zIndex": 1,
+        "enabled": true,
+        "fill": {
+          "color": "#CECECE",
+          "opacity": 0.3
+        },
+        "stroke": "none",
+        "width": "100%",
+        "height": 1,
+        "orientation": "top",
+        "margin": {
+          "left": 0,
+          "top": 5,
+          "bottom": 5,
+          "right": 0
+        }
+      },
+      "background": {
+        "zIndex": 0,
+        "enabled": true,
+        "fill": "#fff",
+        "stroke": "#c1c1c1",
+        "cornerType": "round",
+        "corners": 3
+      }
+    },
+    "margin": {
+      "left": 0,
+      "top": 0,
+      "bottom": 0,
+      "right": 0
+    },
+    "padding": {
+      "left": 10,
+      "top": 10,
+      "bottom": 15,
+      "right": 20
+    },
+    "a11y": {
+      "enabled": true,
+      "mode": "chart-elements"
+    },
+    "autoRedraw": true,
+    "bounds": {},
+    "contextMenu": {
+      "enabled": true
+    },
+    "credits": {
+      "text": "Data source: https://en.wikipedia.org/wiki/List_of_countries_by_system_of_government",
+      "url": "https://en.wikipedia.org/wiki/List_of_countries_by_system_of_government",
+      "alt": "AnyChart - JavaScript Charts designed to be embedded and integrated{{anychart-version}}",
+      "imgAlt": "AnyChart - JavaScript Charts",
+      "logoSrc": "https://en.wikipedia.org/static/favicon/wikipedia.ico",
+      "enabled": true
+    },
+    "selectRectangleMarqueeFill": {
+      "color": "#d3d3d3",
+      "opacity": 0.4
+    },
+    "selectRectangleMarqueeStroke": "#d3d3d3",
+    "legend": {
+      "zIndex": 200,
+      "enabled": true,
+      "fontSize": 12,
+      "fontFamily": "Verdana, Helvetica, Arial, sans-serif",
+      "fontColor": "#7c868e",
+      "fontOpacity": 1,
+      "fontDecoration": "none",
+      "fontStyle": "normal",
+      "fontVariant": "normal",
+      "fontWeight": "normal",
+      "letterSpacing": "normal",
+      "textDirection": "ltr",
+      "lineHeight": "normal",
+      "textIndent": 0,
+      "vAlign": "bottom",
+      "hAlign": "start",
+      "wordWrap": "normal",
+      "wordBreak": "normal",
+      "textOverflow": "...",
+      "selectable": false,
+      "disablePointerEvents": false,
+      "useHtml": false,
+      "inverted": false,
+      "itemsLayout": "vertical",
+      "iconSize": 15,
+      "width": null,
+      "height": null,
+      "maxWidth": null,
+      "maxHeight": null,
+      "position": "right",
+      "positionMode": "outside",
+      "drag": false,
+      "itemsFormat": null,
+      "titleFormat": null,
+      "itemsSpacing": 15,
+      "itemsSourceMode": "default",
+      "hoverCursor": "pointer",
+      "iconTextSpacing": 5,
+      "align": "top",
+      "margin": {
+        "left": 0,
+        "top": 0,
+        "bottom": 0,
+        "right": 0
+      },
+      "padding": {
+        "left": 20,
+        "top": 50,
+        "bottom": 0,
+        "right": 0
+      },
+      "background": {
+        "enabled": false
+      },
+      "title": {
+        "enabled": false,
+        "fontSize": 15,
+        "fontFamily": "Verdana, Helvetica, Arial, sans-serif",
+        "fontColor": "#7c868e",
+        "fontOpacity": 1,
+        "fontDecoration": "none",
+        "fontStyle": "normal",
+        "fontVariant": "normal",
+        "fontWeight": "normal",
+        "letterSpacing": "normal",
+        "textDirection": "ltr",
+        "lineHeight": "normal",
+        "textIndent": 0,
+        "vAlign": "top",
+        "hAlign": "center",
+        "wordWrap": "normal",
+        "wordBreak": "normal",
+        "textOverflow": "",
+        "selectable": false,
+        "disablePointerEvents": false,
+        "useHtml": false,
+        "width": null,
+        "height": null,
+        "align": "center",
+        "text": "Title text",
+        "margin": {
+          "left": 0,
+          "top": 0,
+          "bottom": 0,
+          "right": 0
+        },
+        "padding": {
+          "left": 0,
+          "top": 0,
+          "bottom": 0,
+          "right": 0
+        },
+        "background": {
+          "enabled": false
+        }
+      },
+      "titleSeparator": {
+        "zIndex": 1,
+        "enabled": false,
+        "fill": {
+          "color": "#CECECE",
+          "opacity": 0.3
+        },
+        "stroke": "none",
+        "width": "100%",
+        "height": 1,
+        "orientation": "top",
+        "margin": {
+          "left": 0,
+          "top": 5,
+          "bottom": 5,
+          "right": 0
+        }
+      },
+      "paginator": {
+        "zIndex": 30,
+        "enabled": false,
+        "fontSize": 12,
+        "fontFamily": "Verdana, Helvetica, Arial, sans-serif",
+        "fontColor": "#545f69",
+        "fontOpacity": 1,
+        "fontDecoration": "none",
+        "fontStyle": "normal",
+        "fontVariant": "normal",
+        "fontWeight": "normal",
+        "letterSpacing": "normal",
+        "textDirection": "ltr",
+        "lineHeight": "normal",
+        "textIndent": 0,
+        "vAlign": "top",
+        "hAlign": "start",
+        "wordWrap": "normal",
+        "wordBreak": "normal",
+        "textOverflow": "",
+        "selectable": false,
+        "disablePointerEvents": false,
+        "useHtml": false,
+        "orientation": "right",
+        "layout": "horizontal",
+        "background": {
+          "enabled": false
+        },
+        "padding": {
+          "left": 5,
+          "top": 0,
+          "bottom": 0,
+          "right": 0
+        },
+        "margin": {
+          "left": 0,
+          "top": 0,
+          "bottom": 0,
+          "right": 0
+        }
+      },
+      "tooltip": {
+        "enabled": false,
+        "title": {
+          "zIndex": 1,
+          "enabled": false,
+          "fontSize": 14,
+          "fontFamily": "Verdana, Helvetica, Arial, sans-serif",
+          "fontColor": "#ffffff",
+          "fontOpacity": 1,
+          "fontDecoration": "none",
+          "fontStyle": "normal",
+          "fontVariant": "normal",
+          "fontWeight": "normal",
+          "letterSpacing": "normal",
+          "textDirection": "ltr",
+          "lineHeight": "normal",
+          "textIndent": 0,
+          "vAlign": "top",
+          "hAlign": "left",
+          "wordWrap": "normal",
+          "wordBreak": "normal",
+          "textOverflow": "",
+          "selectable": false,
+          "disablePointerEvents": false,
+          "useHtml": false,
+          "width": null,
+          "height": null,
+          "align": "left",
+          "orientation": "top",
+          "rotation": 0,
+          "text": "",
+          "margin": {
+            "left": 0,
+            "top": 0,
+            "bottom": 0,
+            "right": 0
+          },
+          "padding": {
+            "left": 0,
+            "top": 0,
+            "bottom": 0,
+            "right": 0
+          },
+          "background": {
+            "enabled": false
+          }
+        },
+        "separator": {
+          "zIndex": 1,
+          "enabled": false,
+          "fill": {
+            "color": "#CECECE",
+            "opacity": 0.3
+          },
+          "stroke": "none",
+          "width": "100%",
+          "height": 1,
+          "orientation": "top",
+          "margin": {
+            "left": 0,
+            "top": 5,
+            "bottom": 5,
+            "right": 0
+          }
+        },
+        "background": {
+          "zIndex": 0,
+          "enabled": true
+        }
+      }
+    },
+    "interactivity": {
+      "spotRadius": 2,
+      "multiSelectOnClick": false,
+      "unselectOnClickOutOfPoint": true,
+      "hoverMode": "single",
+      "selectionMode": "none",
+      "zoomOnMouseWheel": false,
+      "zoomOnDoubleClick": false,
+      "keyboardZoomAndMove": true,
+      "drag": true
+    },
+    "defaultSeriesType": "choropleth",
+    "maxBubbleSize": "10%",
+    "minBubbleSize": "1%",
+    "maxPointWidth": "100%",
+    "minPointLength": 0,
+    "baseline": 0,
+    "palette": {
+      "type": "distinct",
+      "items": [
+        "#fff59d",
+        "#fbc02d",
+        "#ff8f00",
+        "#ef6c00",
+        "#bbdefb",
+        "#64b5f6",
+        "#42a5f5",
+        "#1976d2",
+        "#0097a7",
+        "#00838f"
+      ]
+    },
+    "markerPalette": {
+      "items": [
+        "circle",
+        "diamond",
+        "square",
+        "triangle-down",
+        "triangle-up",
+        "diagonal-cross",
+        "pentagon",
+        "cross",
+        "v-line",
+        "star5",
+        "star4",
+        "trapezium",
+        "star7",
+        "star6",
+        "star10"
+      ]
+    },
+    "hatchFillPalette": {
+      "items": [
+        {
+          "type": "backward-diagonal",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "forward-diagonal",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "horizontal",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "vertical",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "dashed-backward-diagonal",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "grid",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "dashed-forward-diagonal",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "dashed-horizontal",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "dashed-vertical",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "diagonal-cross",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "diagonal-brick",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "divot",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "horizontal-brick",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "vertical-brick",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "checker-board",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "confetti",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "plaid",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "solid-diamond",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "zig-zag",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "weave",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "percent-05",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "percent-10",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "percent-20",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "percent-25",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "percent-30",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "percent-40",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "percent-50",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "percent-60",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "percent-70",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "percent-75",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "percent-80",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        },
+        {
+          "type": "percent-90",
+          "color": "black 0.5",
+          "thickness": 1,
+          "size": 10
+        }
+      ]
+    },
+    "dataArea": {
+      "zIndex": 10,
+      "enabled": true,
+      "background": {
+        "enabled": false
+      }
+    },
+    "normal": {
+      "labels": {
+        "enabled": false
+      },
+      "minLabels": {
+        "enabled": null
+      },
+      "maxLabels": {
+        "enabled": null
+      }
+    },
+    "hovered": {
+      "labels": {
+        "enabled": null
+      },
+      "minLabels": {
+        "enabled": null
+      },
+      "maxLabels": {
+        "enabled": null
+      }
+    },
+    "selected": {
+      "labels": {
+        "enabled": null
+      },
+      "minLabels": {
+        "enabled": null
+      },
+      "maxLabels": {
+        "enabled": null
+      }
+    },
+    "unboundRegions": {
+      "fill": "#F7F7F7",
+      "enabled": true,
+      "stroke": "#e0e0e0"
+    },
+    "geoScale": {
+      "type": "geo",
+      "precision": [
+        2,
+        2
+      ],
+      "gap": 0,
+      "xTicks": {
+        "minCount": 4,
+        "maxCount": 6
+      },
+      "xMinorTicks": {
+        "minCount": 4,
+        "maxCount": 6
+      },
+      "yTicks": {
+        "minCount": 4,
+        "maxCount": 6
+      },
+      "yMinorTicks": {
+        "minCount": 4,
+        "maxCount": 6
+      },
+      "maxTicksCount": 1000
+    },
+    "geoIdField": "id",
+    "overlapMode": "no-overlap",
+    "minZoomLevel": 1,
+    "maxZoomLevel": 10,
+    "selectPolygonMarqueeStroke": "#d3d3d3",
+    "selectPolygonMarqueeFill": {
+      "color": "#d3d3d3",
+      "opacity": 0.4
+    },
+    "selectPolygonMarqueeMarker": {
+      "fill": "#d3d3d3 0.4",
+      "stroke": "#d3d3d3",
+      "radius": 15
+    },
+    "geoData": "anychart.maps.world",
+    "crsAnimation": {
+      "enabled": true,
+      "duration": 300
+    },
+    "series": [
+      {
+        "enabled": true,
+        "seriesType": "choropleth",
+        "clip": false,
+        "name": "Single-party state",
+        "legendItem": {
+          "enabled": true,
+          "iconType": "square"
+        },
+        "color": null,
+        "connectMissingPoints": false,
+        "isVertical": null,
+        "normal": {
+          "stroke": "#b3ac6e",
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": false,
+            "disablePointerEvents": false,
+            "position": "value",
+            "anchor": null,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 4
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "hovered": {
+          "stroke": "#b3ac6e",
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": null,
+            "size": 6
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "selected": {
+          "fill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "negativeFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "risingFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "fallingFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "stroke": {
+            "color": "#545f69",
+            "thickness": 0.5
+          },
+          "lowStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "lowFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "negativeStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "risingStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "fallingStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": null,
+            "size": 6
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "a11y": {
+          "titleFormat": "Series named {%SeriesName}"
+        },
+        "data": [
+          {
+            "id": "CN",
+            "name": "China",
+            "value": "Single-party state"
+          },
+          {
+            "id": "CU",
+            "name": "Cuba",
+            "value": "Single-party state"
+          },
+          {
+            "id": "DJ",
+            "name": "Djibouti",
+            "value": "Single-party state"
+          },
+          {
+            "id": "ER",
+            "name": "Eritrea",
+            "value": "Single-party state"
+          },
+          {
+            "id": "HK",
+            "name": "Hong Kong",
+            "value": "Single-party state"
+          },
+          {
+            "id": "KP",
+            "name": "North Korea",
+            "value": "Single-party state"
+          },
+          {
+            "id": "LA",
+            "name": "Laos",
+            "value": "Single-party state"
+          },
+          {
+            "id": "MO",
+            "name": "Macao",
+            "value": "Single-party state"
+          },
+          {
+            "id": "TW",
+            "name": "Taiwan, Province of China",
+            "value": "Single-party state"
+          },
+          {
+            "id": "VN",
+            "name": "Viet Nam",
+            "value": "Single-party state"
+          }
+        ],
+        "overlapMode": null,
+        "geoIdField": "iso_a2"
+      },
+      {
+        "enabled": true,
+        "seriesType": "choropleth",
+        "clip": false,
+        "name": "Absolute monarchy",
+        "legendItem": {
+          "enabled": true,
+          "iconType": "square"
+        },
+        "color": null,
+        "connectMissingPoints": false,
+        "isVertical": null,
+        "normal": {
+          "stroke": "#b0861f",
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": false,
+            "disablePointerEvents": false,
+            "position": "value",
+            "anchor": null,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 4
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "hovered": {
+          "stroke": "#b0861f",
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": null,
+            "size": 6
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "selected": {
+          "fill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "negativeFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "risingFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "fallingFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "stroke": {
+            "color": "#545f69",
+            "thickness": 0.5
+          },
+          "lowStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "lowFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "negativeStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "risingStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "fallingStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": null,
+            "size": 6
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "a11y": {
+          "titleFormat": "Series named {%SeriesName}"
+        },
+        "data": [
+          {
+            "id": "AE",
+            "name": "United Arab Emirates",
+            "value": "Absolute monarchy"
+          },
+          {
+            "id": "BN",
+            "name": "Brunei",
+            "value": "Absolute monarchy"
+          },
+          {
+            "id": "OM",
+            "name": "Oman",
+            "value": "Absolute monarchy"
+          },
+          {
+            "id": "QA",
+            "name": "Qatar",
+            "value": "Absolute monarchy"
+          },
+          {
+            "id": "SA",
+            "name": "Saudi Arabia",
+            "value": "Absolute monarchy"
+          },
+          {
+            "id": "SZ",
+            "name": "Swaziland",
+            "value": "Absolute monarchy"
+          },
+          {
+            "id": "VA",
+            "name": "Vatican City",
+            "value": "Absolute monarchy"
+          }
+        ],
+        "overlapMode": null,
+        "geoIdField": "iso_a2"
+      },
+      {
+        "enabled": true,
+        "seriesType": "choropleth",
+        "clip": false,
+        "name": "Constitutional monarchy",
+        "legendItem": {
+          "enabled": true,
+          "iconType": "square"
+        },
+        "color": null,
+        "connectMissingPoints": false,
+        "isVertical": null,
+        "normal": {
+          "stroke": "#b36400",
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": false,
+            "disablePointerEvents": false,
+            "position": "value",
+            "anchor": null,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 4
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "hovered": {
+          "stroke": "#b36400",
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": null,
+            "size": 6
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "selected": {
+          "fill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "negativeFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "risingFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "fallingFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "stroke": {
+            "color": "#545f69",
+            "thickness": 0.5
+          },
+          "lowStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "lowFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "negativeStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "risingStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "fallingStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": null,
+            "size": 6
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "a11y": {
+          "titleFormat": "Series named {%SeriesName}"
+        },
+        "data": [
+          {
+            "id": "AD",
+            "name": "Andorra",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "AG",
+            "name": "Antigua and Barbuda",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "AI",
+            "name": "Anguilla",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "AU",
+            "name": "Australia",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "AW",
+            "name": "Aruba",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "BB",
+            "name": "Barbados",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "BE",
+            "name": "Belgium",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "BH",
+            "name": "Bahrain",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "BM",
+            "name": "Bermuda",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "BQ",
+            "name": "Bonaire, Sint Eustatius and Saba",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "BS",
+            "name": "Bahamas",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "BT",
+            "name": "Bhutan",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "BV",
+            "name": "Bouvet Island",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "BZ",
+            "name": "Belize",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "CA",
+            "name": "Canada",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "CC",
+            "name": "Cocos (Keeling) Islands",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "CK",
+            "name": "Cook Islands",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "CW",
+            "name": "Curaçao",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "CX",
+            "name": "Christmas Island",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "DK",
+            "name": "Denmark",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "ES",
+            "name": "Spain",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "FK",
+            "name": "Falkland Islands",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "FO",
+            "name": "Faroe Islands",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "GB",
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "GD",
+            "name": "Grenada",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "GG",
+            "name": "Guernsey",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "GI",
+            "name": "Gibraltar",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "GL",
+            "name": "Greenland",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "GS",
+            "name": "South Georgia and the South Sandwich Islands",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "HM",
+            "name": "Heard Island and McDonald Islands",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "IM",
+            "name": "Isle of Man",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "IO",
+            "name": "British Indian Ocean Territory",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "JM",
+            "name": "Jamaica",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "JO",
+            "name": "Jordan",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "JP",
+            "name": "Japan",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "KH",
+            "name": "Cambodia",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "KN",
+            "name": "Saint Kitts and Nevis",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "KW",
+            "name": "Kuwait",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "KY",
+            "name": "Cayman Islands",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "LC",
+            "name": "Saint Lucia",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "LI",
+            "name": "Liechtenstein",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "LU",
+            "name": "Luxembourg",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "MA",
+            "name": "Morocco",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "MC",
+            "name": "Monaco",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "MS",
+            "name": "Montserrat",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "MY",
+            "name": "Malaysia",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "NF",
+            "name": "Norfolk Island",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "NL",
+            "name": "Netherlands",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "NO",
+            "name": "Norway",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "NU",
+            "name": "Niue",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "NZ",
+            "name": "New Zealand",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "PG",
+            "name": "Papua New Guinea",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "PN",
+            "name": "Pitcairn",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "SB",
+            "name": "Solomon Islands",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "SE",
+            "name": "Sweden",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "SH",
+            "name": "Saint Helena, Ascension and Tristan da Cunha",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "SJ",
+            "name": "Svalbard and Jan Mayen",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "SX",
+            "name": "Sint Maarten",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "TC",
+            "name": "Turks and Caicos Islands",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "TK",
+            "name": "Tokelau",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "TO",
+            "name": "Tonga",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "TV",
+            "name": "Tuvalu",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "VC",
+            "name": "Saint Vincent and the Grenadines",
+            "value": "Constitutional monarchy"
+          },
+          {
+            "id": "VG",
+            "name": "Virgin Islands, British",
+            "value": "Constitutional monarchy"
+          }
+        ],
+        "overlapMode": null,
+        "geoIdField": "iso_a2"
+      },
+      {
+        "enabled": true,
+        "seriesType": "choropleth",
+        "clip": false,
+        "name": "Presidential republic",
+        "legendItem": {
+          "enabled": true,
+          "iconType": "square"
+        },
+        "color": null,
+        "connectMissingPoints": false,
+        "isVertical": null,
+        "normal": {
+          "stroke": "#a74c00",
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": false,
+            "disablePointerEvents": false,
+            "position": "value",
+            "anchor": null,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 4
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "hovered": {
+          "stroke": "#a74c00",
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": null,
+            "size": 6
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "selected": {
+          "fill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "negativeFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "risingFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "fallingFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "stroke": {
+            "color": "#545f69",
+            "thickness": 0.5
+          },
+          "lowStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "lowFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "negativeStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "risingStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "fallingStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": null,
+            "size": 6
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "a11y": {
+          "titleFormat": "Series named {%SeriesName}"
+        },
+        "data": [
+          {
+            "id": "AF",
+            "name": "Afghanistan",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "AO",
+            "name": "Angola",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "AZ",
+            "name": "Azerbaijan",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "BI",
+            "name": "Burundi",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "BJ",
+            "name": "Benin",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "BY",
+            "name": "Belarus",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "CG",
+            "name": "Congo",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "CM",
+            "name": "Cameroon",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "DO",
+            "name": "Dominican Republic",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "GA",
+            "name": "Gabon",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "GM",
+            "name": "Gambia",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "GN",
+            "name": "Guinea",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "GQ",
+            "name": "Equatorial Guinea",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "GT",
+            "name": "Guatemala",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "HN",
+            "name": "Honduras",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "IR",
+            "name": "Iran, Islamic Republic of",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "KE",
+            "name": "Kenya",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "KM",
+            "name": "Comoros",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "KZ",
+            "name": "Kazakhstan",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "MM",
+            "name": "Myanmar",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "MW",
+            "name": "Malawi",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "MZ",
+            "name": "Mozambique",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "NG",
+            "name": "Nigeria",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "SC",
+            "name": "Seychelles",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "SD",
+            "name": "Sudan",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "SS",
+            "name": "South Sudan",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "TD",
+            "name": "Chad",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "TG",
+            "name": "Togo",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "TM",
+            "name": "Turkmenistan",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "UZ",
+            "name": "Uzbekistan",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "ZM",
+            "name": "Zambia",
+            "value": "Presidential republic"
+          },
+          {
+            "id": "ZW",
+            "name": "Zimbabwe",
+            "value": "Presidential republic"
+          }
+        ],
+        "overlapMode": null,
+        "geoIdField": "iso_a2"
+      },
+      {
+        "enabled": true,
+        "seriesType": "choropleth",
+        "clip": false,
+        "name": "Parliamentary republic",
+        "legendItem": {
+          "enabled": true,
+          "iconType": "square"
+        },
+        "color": null,
+        "connectMissingPoints": false,
+        "isVertical": null,
+        "normal": {
+          "stroke": "#839bb0",
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": false,
+            "disablePointerEvents": false,
+            "position": "value",
+            "anchor": null,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 4
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "hovered": {
+          "stroke": "#839bb0",
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": null,
+            "size": 6
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "selected": {
+          "fill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "negativeFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "risingFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "fallingFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "stroke": {
+            "color": "#545f69",
+            "thickness": 0.5
+          },
+          "lowStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "lowFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "negativeStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "risingStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "fallingStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": null,
+            "size": 6
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "a11y": {
+          "titleFormat": "Series named {%SeriesName}"
+        },
+        "data": [
+          {
+            "id": "AT",
+            "name": "Austria",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "AX",
+            "name": "Aland Islands",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "BA",
+            "name": "Bosnia and Herzegovina",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "BG",
+            "name": "Bulgaria",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "BW",
+            "name": "Botswana",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "DM",
+            "name": "Dominica",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "EE",
+            "name": "Estonia",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "ET",
+            "name": "Ethiopia",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "FI",
+            "name": "Finland",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "FJ",
+            "name": "Fiji",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "FM",
+            "name": "Micronesia, Federated States of",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "IL",
+            "name": "Israel",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "IQ",
+            "name": "Iraq",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "KG",
+            "name": "Kyrgyzstan",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "KI",
+            "name": "Kiribati",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "LB",
+            "name": "Lebanon",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "LT",
+            "name": "Lithuania",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "LV",
+            "name": "Latvia",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "LY",
+            "name": "Libya",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "MD",
+            "name": "Moldova",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "ME",
+            "name": "Montenegro",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "MH",
+            "name": "Marshall Islands",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "MK",
+            "name": "Macedonia",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "MT",
+            "name": "Malta",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "MU",
+            "name": "Mauritius",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "NP",
+            "name": "Nepal",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "NR",
+            "name": "Nauru",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "PK",
+            "name": "Pakistan",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "PL",
+            "name": "Poland",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "RS",
+            "name": "Serbia",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "SK",
+            "name": "Slovakia",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "SO",
+            "name": "Somalia",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "TN",
+            "name": "Tunisia",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "VU",
+            "name": "Vanuatu",
+            "value": "Parliamentary republic"
+          },
+          {
+            "id": "WS",
+            "name": "Samoa",
+            "value": "Parliamentary republic"
+          }
+        ],
+        "overlapMode": null,
+        "geoIdField": "iso_a2"
+      },
+      {
+        "enabled": true,
+        "seriesType": "choropleth",
+        "clip": false,
+        "name": "Presidential constitutional republic",
+        "legendItem": {
+          "enabled": true,
+          "iconType": "square"
+        },
+        "color": null,
+        "connectMissingPoints": false,
+        "isVertical": null,
+        "normal": {
+          "stroke": "#467fac",
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": false,
+            "disablePointerEvents": false,
+            "position": "value",
+            "anchor": null,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 4
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "hovered": {
+          "stroke": "#467fac",
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": null,
+            "size": 6
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "selected": {
+          "fill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "negativeFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "risingFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "fallingFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "stroke": {
+            "color": "#545f69",
+            "thickness": 0.5
+          },
+          "lowStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "lowFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "negativeStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "risingStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "fallingStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": null,
+            "size": 6
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "a11y": {
+          "titleFormat": "Series named {%SeriesName}"
+        },
+        "data": [
+          {
+            "id": "AR",
+            "name": "Argentina",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "AS",
+            "name": "American Samoa",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "BO",
+            "name": "Bolivia",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "BR",
+            "name": "Brazil",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "CL",
+            "name": "Chile",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "CO",
+            "name": "Colombia",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "CR",
+            "name": "Costa Rica",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "CY",
+            "name": "Cyprus",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "EC",
+            "name": "Ecuador",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "GH",
+            "name": "Ghana",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "GU",
+            "name": "Guam",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "ID",
+            "name": "Indonesia",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "KR",
+            "name": "South Korea",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "LR",
+            "name": "Liberia",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "MP",
+            "name": "Northern Mariana Islands",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "MV",
+            "name": "Maldives",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "MX",
+            "name": "Mexico",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "NA",
+            "name": "Namibia",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "NI",
+            "name": "Nicaragua",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "PA",
+            "name": "Panama",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "PE",
+            "name": "Peru",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "PH",
+            "name": "Philippines",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "PR",
+            "name": "Puerto Rico",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "PW",
+            "name": "Palau",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "PY",
+            "name": "Paraguay",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "SL",
+            "name": "Sierra Leone",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "SV",
+            "name": "El Salvador",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "TZ",
+            "name": "Tanzania, United Republic of",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "UM",
+            "name": "United States Minor Outlying Islands",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "US",
+            "name": "United States of America",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "UY",
+            "name": "Uruguay",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "VE",
+            "name": "Venezuela",
+            "value": "Presidential constitutional republic"
+          },
+          {
+            "id": "VI",
+            "name": "Virgin Islands, U.S.",
+            "value": "Presidential constitutional republic"
+          }
+        ],
+        "overlapMode": null,
+        "geoIdField": "iso_a2"
+      },
+      {
+        "enabled": true,
+        "seriesType": "choropleth",
+        "clip": false,
+        "name": "Parliamentary constitutional republic",
+        "legendItem": {
+          "enabled": true,
+          "iconType": "square"
+        },
+        "color": null,
+        "connectMissingPoints": false,
+        "isVertical": null,
+        "normal": {
+          "stroke": "#2e73ac",
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": false,
+            "disablePointerEvents": false,
+            "position": "value",
+            "anchor": null,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 4
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "hovered": {
+          "stroke": "#2e73ac",
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": null,
+            "size": 6
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "selected": {
+          "fill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "negativeFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "risingFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "fallingFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "stroke": {
+            "color": "#545f69",
+            "thickness": 0.5
+          },
+          "lowStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "lowFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "negativeStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "risingStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "fallingStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": null,
+            "size": 6
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "a11y": {
+          "titleFormat": "Series named {%SeriesName}"
+        },
+        "data": [
+          {
+            "id": "AL",
+            "name": "Albania",
+            "value": "Parliamentary constitutional republic"
+          },
+          {
+            "id": "CZ",
+            "name": "Czech Republic",
+            "value": "Parliamentary constitutional republic"
+          },
+          {
+            "id": "DE",
+            "name": "Germany",
+            "value": "Parliamentary constitutional republic"
+          },
+          {
+            "id": "GR",
+            "name": "Greece",
+            "value": "Parliamentary constitutional republic"
+          },
+          {
+            "id": "HR",
+            "name": "Croatia",
+            "value": "Parliamentary constitutional republic"
+          },
+          {
+            "id": "HU",
+            "name": "Hungary",
+            "value": "Parliamentary constitutional republic"
+          },
+          {
+            "id": "IE",
+            "name": "Ireland",
+            "value": "Parliamentary constitutional republic"
+          },
+          {
+            "id": "IN",
+            "name": "India",
+            "value": "Parliamentary constitutional republic"
+          },
+          {
+            "id": "IS",
+            "name": "Iceland",
+            "value": "Parliamentary constitutional republic"
+          },
+          {
+            "id": "IT",
+            "name": "Italy",
+            "value": "Parliamentary constitutional republic"
+          },
+          {
+            "id": "MN",
+            "name": "Mongolia",
+            "value": "Parliamentary constitutional republic"
+          },
+          {
+            "id": "SG",
+            "name": "Singapore",
+            "value": "Parliamentary constitutional republic"
+          },
+          {
+            "id": "SI",
+            "name": "Slovenia",
+            "value": "Parliamentary constitutional republic"
+          },
+          {
+            "id": "SM",
+            "name": "San Marino",
+            "value": "Parliamentary constitutional republic"
+          },
+          {
+            "id": "SR",
+            "name": "Suriname",
+            "value": "Parliamentary constitutional republic"
+          },
+          {
+            "id": "TR",
+            "name": "Turkey",
+            "value": "Parliamentary constitutional republic"
+          },
+          {
+            "id": "TT",
+            "name": "Trinidad and Tobago",
+            "value": "Parliamentary constitutional republic"
+          },
+          {
+            "id": "ZA",
+            "name": "South Africa",
+            "value": "Parliamentary constitutional republic"
+          }
+        ],
+        "overlapMode": null,
+        "geoIdField": "iso_a2"
+      },
+      {
+        "enabled": true,
+        "seriesType": "choropleth",
+        "clip": false,
+        "name": "Semi-presidential republic",
+        "legendItem": {
+          "enabled": true,
+          "iconType": "square"
+        },
+        "color": null,
+        "connectMissingPoints": false,
+        "isVertical": null,
+        "normal": {
+          "stroke": "#125393",
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": false,
+            "disablePointerEvents": false,
+            "position": "value",
+            "anchor": null,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 4
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "hovered": {
+          "stroke": "#125393",
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": null,
+            "size": 6
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "selected": {
+          "fill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "negativeFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "risingFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "fallingFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "stroke": {
+            "color": "#545f69",
+            "thickness": 0.5
+          },
+          "lowStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "lowFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "negativeStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "risingStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "fallingStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": null,
+            "size": 6
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "a11y": {
+          "titleFormat": "Series named {%SeriesName}"
+        },
+        "data": [
+          {
+            "id": "AM",
+            "name": "Armenia",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "BF",
+            "name": "Burkina Faso",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "BL",
+            "name": "Saint Barthélemy",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "CD",
+            "name": "Congo, the Democratic Republic of the",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "CI",
+            "name": "Cote d'Ivoire",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "CV",
+            "name": "Cabo Verde",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "DZ",
+            "name": "Algeria",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "EG",
+            "name": "Egypt",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "EH",
+            "name": "Western Sahara",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "FR",
+            "name": "France",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "GE",
+            "name": "Georgia",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "GF",
+            "name": "French Guiana",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "GP",
+            "name": "Guadeloupe",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "GW",
+            "name": "Guinea-Bissau",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "GY",
+            "name": "Guyana",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "HT",
+            "name": "Haiti",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "JE",
+            "name": "Jersey",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "LK",
+            "name": "Sri Lanka",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "MF",
+            "name": "Saint Martin",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "MG",
+            "name": "Madagascar",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "ML",
+            "name": "Mali",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "MQ",
+            "name": "Martinique",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "MR",
+            "name": "Mauritania",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "NC",
+            "name": "New Caledonia",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "NE",
+            "name": "Niger",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "PF",
+            "name": "Polynesia",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "PT",
+            "name": "Portugal",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "RE",
+            "name": "Reunion",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "RO",
+            "name": "Romania",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "RU",
+            "name": "Russian Federation",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "RW",
+            "name": "Rwanda",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "SN",
+            "name": "Senegal",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "ST",
+            "name": "Sao Tome and Principe",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "SY",
+            "name": "Syria",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "TF",
+            "name": "French Southern Territories",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "TJ",
+            "name": "Tajikistan",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "TL",
+            "name": "Timor-Leste",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "UA",
+            "name": "Ukraine",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "UG",
+            "name": "Uganda",
+            "value": "Semi-presidential republic"
+          },
+          {
+            "id": "WF",
+            "name": "Wallis and Futuna",
+            "value": "Semi-presidential republic"
+          }
+        ],
+        "overlapMode": null,
+        "geoIdField": "iso_a2"
+      },
+      {
+        "enabled": true,
+        "seriesType": "choropleth",
+        "clip": false,
+        "name": "Other",
+        "legendItem": {
+          "enabled": true,
+          "iconType": "square"
+        },
+        "color": null,
+        "connectMissingPoints": false,
+        "isVertical": null,
+        "normal": {
+          "stroke": "#006a75",
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": false,
+            "disablePointerEvents": false,
+            "position": "value",
+            "anchor": null,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 4
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "hovered": {
+          "stroke": "#006a75",
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": null,
+            "size": 6
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "selected": {
+          "fill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "negativeFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "risingFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "fallingFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "stroke": {
+            "color": "#545f69",
+            "thickness": 0.5
+          },
+          "lowStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "lowFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "highFill": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "negativeStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "risingStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "fallingStroke": {
+            "color": "#333",
+            "opacity": 0.85
+          },
+          "hatchFill": "none",
+          "risingHatchFill": "none",
+          "fallingHatchFill": "none",
+          "labels": {
+            "enabled": null
+          },
+          "minLabels": {
+            "enabled": null
+          },
+          "maxLabels": {
+            "enabled": null
+          },
+          "markers": {
+            "enabled": null,
+            "size": 6
+          },
+          "outlierMarkers": {
+            "enabled": null,
+            "anchor": "center",
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "size": 6
+          }
+        },
+        "a11y": {
+          "titleFormat": "Series named {%SeriesName}"
+        },
+        "data": [
+          {
+            "id": "AQ",
+            "name": "Antarctica",
+            "value": ""
+          },
+          {
+            "id": "BD",
+            "name": "Bangladesh",
+            "value": "Constitutional republic"
+          },
+          {
+            "id": "CF",
+            "name": "Central African Republic",
+            "value": "Provisional republic"
+          },
+          {
+            "id": "CH",
+            "name": "Switzerland",
+            "value": "Presidential parliamentary republic"
+          },
+          {
+            "id": "LS",
+            "name": "Lesotho",
+            "value": "Parliamentary constitutional monarchy"
+          },
+          {
+            "id": "PM",
+            "name": "Saint Pierre and Miquelon",
+            "value": "Overseas collectivity"
+          },
+          {
+            "id": "PS",
+            "name": "Palestine",
+            "value": "Semi-presidential republic["
+          },
+          {
+            "id": "TH",
+            "name": "Thailand",
+            "value": "Military dictatorship"
+          },
+          {
+            "id": "YE",
+            "name": "Yemen",
+            "value": "Disputed"
+          },
+          {
+            "id": "YT",
+            "name": "Mayotte",
+            "value": "Overseas collectivity"
+          }
+        ],
+        "overlapMode": null,
+        "geoIdField": "iso_a2"
+      }
+    ],
+    "crosshair": {
+      "zIndex": 110,
+      "enabled": false,
+      "xStroke": "#969EA5",
+      "yStroke": "#969EA5",
+      "xLabels": [
+        {
+          "enabled": true,
+          "fontSize": 12,
+          "fontFamily": "Verdana, Helvetica, Arial, sans-serif",
+          "fontColor": "#ffffff",
+          "fontOpacity": 1,
+          "fontDecoration": "none",
+          "fontStyle": "normal",
+          "fontVariant": "normal",
+          "fontWeight": 400,
+          "letterSpacing": "normal",
+          "textDirection": "ltr",
+          "lineHeight": "normal",
+          "textIndent": 0,
+          "vAlign": "top",
+          "hAlign": "start",
+          "wordWrap": "normal",
+          "wordBreak": "normal",
+          "textOverflow": "",
+          "selectable": false,
+          "disablePointerEvents": true,
+          "useHtml": false,
+          "text": "Label text",
+          "width": null,
+          "height": null,
+          "anchor": null,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0,
+          "adjustFontSize": {
+            "width": false,
+            "height": false
+          },
+          "minFontSize": 8,
+          "maxFontSize": 16,
+          "background": {
+            "zIndex": 0,
+            "enabled": true
+          },
+          "padding": {
+            "left": 10,
+            "top": 5,
+            "bottom": 5,
+            "right": 10
+          },
+          "axisIndex": 2
+        }
+      ],
+      "yLabels": [
+        {
+          "enabled": true,
+          "fontSize": 12,
+          "fontFamily": "Verdana, Helvetica, Arial, sans-serif",
+          "fontColor": "#ffffff",
+          "fontOpacity": 1,
+          "fontDecoration": "none",
+          "fontStyle": "normal",
+          "fontVariant": "normal",
+          "fontWeight": 400,
+          "letterSpacing": "normal",
+          "textDirection": "ltr",
+          "lineHeight": "normal",
+          "textIndent": 0,
+          "vAlign": "top",
+          "hAlign": "start",
+          "wordWrap": "normal",
+          "wordBreak": "normal",
+          "textOverflow": "",
+          "selectable": false,
+          "disablePointerEvents": true,
+          "useHtml": false,
+          "text": "Label text",
+          "width": null,
+          "height": null,
+          "anchor": null,
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0,
+          "adjustFontSize": {
+            "width": false,
+            "height": false
+          },
+          "minFontSize": 8,
+          "maxFontSize": 16,
+          "background": {
+            "zIndex": 0,
+            "enabled": true
+          },
+          "padding": {
+            "left": 10,
+            "top": 5,
+            "bottom": 5,
+            "right": 10
+          },
+          "axisIndex": 3
+        }
+      ]
+    }
+  }
+}
+                

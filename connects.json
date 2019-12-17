@@ -4,6 +4,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 0.1,
     "from": "China",
+    "type": "Single-party state",
     "to": "Argentina",
     "curvature": -0.15,
     "label": {
@@ -16,6 +17,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 0.1,
     "from": "China",
+    "type": "Single-party state",
     "to": "Mali",
     "curvature": 0.75,
     "label": {
@@ -27,6 +29,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 0.1,
     "from": "China",
+    "type": "Single-party state",
     "to": "Niger",
     "curvature": -0.55,
     "label": {
@@ -39,6 +42,7 @@
     "percent": 0.3,
     "to": "Kenya",
     "from": "China",
+    "type": "Single-party state",
     "curvature": 0.5,
     "label": {
       "position": "100%"
@@ -50,6 +54,7 @@
     "percent": 0.6,
     "to": "Ethiopia",
     "from": "China",
+    "type": "Single-party state",
     "curvature": -0.05,
     "label": {
       "position": "85%"
@@ -61,6 +66,7 @@
     "percent": 0.7,
     "to": "Eygpt",
     "from": "China",
+    "type": "Single-party state",
     "curvature": 0.45,
     "label": {
       "position": "98%"
@@ -71,6 +77,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 0.8,
     "from": "China",
+    "type": "Single-party state",
     "to": "Turkey",
     "curvature": -0.15,
     "label": {
@@ -84,6 +91,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 0.9,
     "from": "China",
+    "type": "Single-party state",
     "to": "Saudi Arabia",
     "curvature": -0.3,
     "label": {
@@ -96,6 +104,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 0.9,
     "from": "China",
+    "type": "Single-party state",
     "to": "Spain",
     "curvature": -0.55,
     "label": {
@@ -107,6 +116,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 1.2,
     "from": "China",
+    "type": "Single-party state",
     "to": "Ecudor",
     "curvature": -0.45,
     "label": {
@@ -118,6 +128,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 1.2,
     "from": "China",
+    "type": "Single-party state",
     "to": "France",
     "curvature": -0.6,
     "label": {
@@ -130,6 +141,7 @@
     "percent": 1.3,
     "to": "Canada",
     "from": "China",
+    "type": "Single-party state",
     "curvature": -0.51
   },
   {
@@ -137,6 +149,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 1.4,
     "from": "China",
+    "type": "Single-party state",
     "to": "Mexico",
     "curvature": -0.6
   },
@@ -145,6 +158,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 1.5,
     "from": "China",
+    "type": "Single-party state",
     "to": "Thailand",
     "curvature": -0.1
   },
@@ -153,6 +167,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 1.5,
     "from": "China",
+    "type": "Single-party state",
     "to": "Brazil",
     "curvature": -0.3
   },
@@ -161,6 +176,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 1.7,
     "from": "China",
+    "type": "Single-party state",
     "to": "Indonesia"
   },
   {
@@ -168,6 +184,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 1.7,
     "from": "China",
+    "type": "Single-party state",
     "to": "South Africa"
   },
   {
@@ -175,6 +192,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 2.1,
     "from": "China",
+    "type": "Single-party state",
     "to": "Singapore"
   },
   {
@@ -182,6 +200,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 2.3,
     "from": "China",
+    "type": "Single-party state",
     "to": "Russia",
     "curvature": 0.1,
     "label": {
@@ -194,6 +213,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 2.3,
     "from": "China",
+    "type": "Single-party state",
     "to": "Uruguay",
     "curvature": -0.3,
     "label": {
@@ -205,6 +225,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 2.4,
     "from": "China",
+    "type": "Single-party state",
     "to": "Bolivia",
     "curvature": 0.95,
     "label": {
@@ -216,6 +237,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 2.8,
     "from": "China",
+    "type": "Single-party state",
     "to": "Netherlands",
     "curvature": 0.7,
     "label": {
@@ -227,6 +249,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 3.1,
     "from": "China",
+    "type": "Single-party state",
     "to": "Germany",
     "curvature": 0.35,
     "label": {
@@ -238,6 +261,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 4.3,
     "from": "China",
+    "type": "Single-party state",
     "to": "Nigeria",
     "label": {
       "position": "85%"
@@ -248,6 +272,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 6.4,
     "from": "China",
+    "type": "Single-party state",
     "to": "Cameroon",
     "curvature": 0.3,
     "label": {
@@ -259,6 +284,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Angola",
     "curvature": -0.5
   },
@@ -267,6 +293,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Lesotho",
     "curvature": -0.5
   },
@@ -275,6 +302,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Madagascar",
     "curvature": -0.5
   },
@@ -283,6 +311,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Tanzania",
     "curvature": -0.5
   },
@@ -291,6 +320,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Uganda",
     "curvature": -0.5
   },
@@ -299,6 +329,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Venezuela",
     "curvature": -0.5
   },
@@ -307,6 +338,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Panama",
     "curvature": -0.5
   },
@@ -315,6 +347,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Algeria",
     "curvature": -0.5
   },
@@ -323,6 +356,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Morocco",
     "curvature": -0.5
   },
@@ -331,6 +365,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Colombia",
     "curvature": -0.5
   },
@@ -339,6 +374,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Chile",
     "curvature": -0.5
   },
@@ -347,6 +383,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Oman",
     "curvature": -0.5
   },
@@ -355,6 +392,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Iraq",
     "curvature": -0.5
   },
@@ -363,6 +401,8 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "to": "Iran",
+    "from": "China",
+    "type": "Single-party state",
     "curvature": -0.5
   },
   {
@@ -370,6 +410,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Pakistan",
     "curvature": -0.5
   },
@@ -378,6 +419,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Zimbabwe",
     "curvature": -0.5
   },
@@ -386,6 +428,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Botswana",
     "curvature": -0.5
   },
@@ -394,6 +437,7 @@
     "points": [39.90487, 116.402231, 49.817492, 15.472962],
     "source": "Professor Sheena Greitens Research",
     "from": "China",
+    "type": "Single-party state",
     "percent": 17,
     "to": "Czech Republic",
     "curvature": -0.5
@@ -403,6 +447,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "United Kingdom",
     "curvature": -0.5
   },
@@ -411,6 +456,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Romania",
     "curvature": -0.5
   }
@@ -420,6 +466,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Ukraine",
     "curvature": -0.5
   }
@@ -429,6 +476,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Belarus",
     "curvature": -0.5
   }
@@ -438,6 +486,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Turkmenistan",
     "curvature": -0.5
   }
@@ -447,6 +496,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Uzbekistan",
     "curvature": -0.5
   }
@@ -456,6 +506,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Kazakhstan",
     "curvature": -0.5
   }
@@ -465,6 +516,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Mongolia",
     "curvature": -0.5
   }
@@ -474,6 +526,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Myanmar",
     "curvature": -0.5
   }
@@ -483,6 +536,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Kyrgyzstan",
     "curvature": -0.5
   }
@@ -492,6 +546,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Laos",
     "curvature": -0.5
   }
@@ -501,6 +556,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Cambodia",
     "curvature": -0.5
   }
@@ -510,6 +566,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Malaysia",
     "curvature": -0.5
   }
@@ -519,6 +576,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
+    "type": "Single-party state",
     "to": "Philippines",
     "curvature": -0.5
   }
@@ -528,7 +586,8 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
-    "to": "Papua New Guinea",
+    "type": "Single-party state",
+        "to": "Papua New Guinea",
     "curvature": -0.5
   }
   ,
@@ -537,7 +596,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
-    "to": "North Korea",
+    "type": "Single-party state",    "to": "North Korea",
     "curvature": -0.5
   }
   ,
@@ -546,7 +605,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
-    "to": "Hungary",
+    "type": "Single-party state",    "to": "Hungary",
     "curvature": -0.5
   }
   ,
@@ -555,7 +614,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
-    "to": "Serbia",
+    "type": "Single-party state",    "to": "Serbia",
     "curvature": -0.5
   }
   ,
@@ -564,7 +623,7 @@
     "source": "Professor Sheena Greitens Research",
     "percent": 17,
     "from": "China",
-    "to": "Croatia",
+    "type": "Single-party state",    "to": "Croatia",
     "curvature": -0.5
   },
   {
@@ -572,6 +631,7 @@
     "source": " Business Insider",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic", 
     "to": "Saudi Arabia",
     "curvature": -0.5
   }
@@ -581,6 +641,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "Bahrain",
     "curvature": -0.5
   }
@@ -590,6 +651,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "Indonesia",
     "curvature": -0.5
   }
@@ -599,6 +661,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "Angola",
     "curvature": -0.5
   }
@@ -608,6 +671,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "Mozambique",
     "curvature": -0.5
   }
@@ -617,6 +681,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "Dominican Republic",
     "curvature": -0.5
   }
@@ -626,6 +691,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "Azerbaijan",
     "curvature": -0.5
   }
@@ -635,6 +701,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "Swaziland",
     "curvature": -0.5
   }
@@ -644,6 +711,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "Botswana",
     "curvature": -0.5
   }
@@ -653,6 +721,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "Bangladesh",
     "curvature": -0.5
   }
@@ -662,6 +731,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "El Salvador",
     "curvature": -0.5
   }
@@ -671,6 +741,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "Malaysia",
     "curvature": -0.5
   }
@@ -680,6 +751,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "Panama",
     "curvature": -0.5
   }
@@ -689,6 +761,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "Nicaragua",
     "curvature": -0.5
   }
@@ -698,6 +771,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "Vietnam",
     "curvature": -0.5
   }
@@ -707,6 +781,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "Mexico",
     "curvature": -0.5
   }
@@ -716,6 +791,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "Uzbekistan",
     "curvature": -0.5
   }
@@ -725,6 +801,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "Kazakhstan",
     "curvature": -0.5
   }
@@ -734,6 +811,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "Ethiopia",
     "curvature": -0.5
   }
@@ -743,6 +821,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "South Sudan",
     "curvature": -0.5
   }
@@ -752,6 +831,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "Honduras",
     "curvature": -0.5
   }
@@ -761,6 +841,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "Trinidad and Tobago",
     "curvature": -0.5
   }
@@ -770,6 +851,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "Peru",
     "curvature": -0.5
   }
@@ -779,6 +861,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "Colombia",
     "curvature": -0.5
   }
@@ -788,6 +871,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "Uganda",
     "curvature": -0.5
   }
@@ -797,6 +881,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "Nigeria",
     "curvature": -0.5
   }
@@ -806,6 +891,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "Ecuador",
     "curvature": -0.5
   }
@@ -815,6 +901,7 @@
     "source": "Haaretz",
     "percent": 17,
     "from": "Israel",
+    "regime": "Parliamentary republic",
     "to": "United Arab Emirates",
     "curvature": -0.5
   }
@@ -824,6 +911,7 @@
     "source": "The Guardian",
     "percent": 17,
     "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
     "to": "Honduras",
     "curvature": -0.5
   }
@@ -833,6 +921,7 @@
     "source": "The Guardian",
     "percent": 17,
     "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
     "to": "Saudi Arabia",
     "curvature": -0.5
   }
@@ -842,6 +931,7 @@
     "source": "The Guardian",
     "percent": 17,
     "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
     "to": "Bahrain",
     "curvature": -0.5
   }
@@ -851,6 +941,7 @@
     "source": "The Guardian",
     "percent": 17,
     "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
     "to": "Turkey",
     "curvature": -0.5
   }
@@ -860,7 +951,727 @@
     "source": "The Guardian",
     "percent": 17,
     "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
     "to": "Egypt ",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 33.886917,	9.537499],
+    "source": "BBC",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Tunisia",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 23.424076,	53.847818],
+    "source": "BBC",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "United Arab Emirates",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 25.354826,	51.183884],
+    "source": "BBC",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Qatar",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973,  21.512583, 55.923255],
+    "source": "BBC",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Oman",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 31.791702, -7.09262],
+    "source": "BBC",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Morocco",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 28.033886, 1.659626],
+    "source": "BBC",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Algeria",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973,47.516231,	14.550072],
+    "source": "Privacy International",
+    "percent": 17,
+    "constmarch": "Constitutional monarchy",
+    "from": "United Kingdom",
+    "to": "Austria",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973,-25.274398,	133.775136],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Australia",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 43.915886,	17.679076],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Bosnia",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 9.081999, 8.675277],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Nigeria",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 46.862496,	103.846656],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Mongolia",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 37.09024,	-95.712891],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "United States",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973,  52.369775, 4.89441],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Netherlands",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 1.373333, 32.290275],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Uganda",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 23.424076,	53.847818],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "United Arab Emirates",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 8.537981, -80.782127],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Panama",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 49.817492, 15.472962],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Czech Republic",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 41.608635,	21.745275],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Macedonia",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 44.016521,	21.005859],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Serbia",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, -23.442503,	-58.443832],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Paraguay",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 41.87194,	12.56738],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Italy",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 36.204824,	138.252924],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Japan",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 29.31166,	47.481766],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Kuwait",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 	56.879635,	24.603189],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Latvia",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 	33.854721,	35.862285],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Lebanon",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 	-11.202692, 17.873887],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Angola",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973,	38.969719,	59.556278],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Turkmenistan",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 30.375321, 69.345116],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Pakistan",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 30.585164,	36.238414],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Jordan",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 47.162494	,19.503304],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Hungary",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973,-0.803689,	11.609444],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Gabon",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 7.837254, 39.635693],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Ethiopia",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973,  14.058324,	108.2771999],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Vietnam",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, -35.675147, -71.542969],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Chile",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 22.198745,	113.543873],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Macaou",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 	23.69781,	120.960515],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Taiwan",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 	9.081999, 8.675277],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Nigeria",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [55.378051,	-3.435973, 6.42375,	-66.58973],
+    "source": "Privacy International",
+    "percent": 17,
+    "from": "United Kingdom",
+    "constmarch": "Constitutional monarchy",
+    "to": "Venezuela",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [41.87194,	12.56738, 12.862807,	30.217636],
+    "source": "Al Jazeera",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "South Sudan",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [41.87194,	12.56738, 32.427908,	53.688046],
+    "source": "Al Jazeera",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Iran",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [41.87194,	12.56738, 39.932089, 32.859522],
+    "source": "Al Jazeera",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Turkey",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [41.87194,	12.56738, 34.802075,	38.996815],
+    "source": "Al Jazeera",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Syria",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [41.87194,	12.56738, 7.837254, 39.635693],
+    "source": "Business & Human Rights Resource Center",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Ethiopia",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [41.87194,	12.56738, 	21.913965,	95.956223],
+    "source": "Business & Human Rights Resource Center",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Myanmar",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [41.87194,	12.56738, 25.354826,	51.183884],
+    "source": "Business & Human Rights Resource Center",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Qatar",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [41.87194,	12.56738, 55.747362, 37.621273],
+    "source": "Business & Human Rights Resource Center",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Russia",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [41.87194,	12.56738, 40.143105,	47.576927],
+    "source": "Mashable",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Azerbaijan",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [41.87194,	12.56738, 31.791702, -7.09262],
+    "source": "Mashable",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Colombia",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [41.87194,	12.56738, 26.820553, 30.802498],
+    "source": "Mashable",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Egypt",
+    "curvature": -0.5
+  }  ,
+  {
+    "points": [41.87194,	12.56738, 7.837254, 39.635693],
+    "source": "Mashable",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Ethiopia",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [41.87194,	12.56738, 47.162494	,19.503304],
+    "source": "Mashable",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Hungary",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [41.87194,	12.56738, 	48.019573,	66.923684],
+    "source": "Mashable",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Kazakhstan",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [41.87194,	12.56738, 35.907757, 127.766922],
+    "source": "Mashable",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "South Korea",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [41.87194,	12.56738, 4.210484,	101.975766],
+    "source": "Mashable",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Malaysia",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [41.87194,	12.56738, 23.634501,	-102.552784],
+    "source": "Mashable",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Mexico",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [41.87194,	12.56738, 23.634501,	-102.552784],
+    "source": "Mashable",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Morocco",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [41.87194,	12.56738, 9.081999, 8.675277],
+    "source": "Mashable",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Nigeria",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [41.87194,	12.56738,21.512583, 55.923255],
+    "source": "Mashable",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Oman",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [41.87194,	12.56738, 8.537981, -80.782127],
+    "source": "Mashable",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Panama",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [41.87194,	12.56738, 51.919438,	19.145136],
+    "source": "Mashable",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Poland",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [41.87194,	12.56738, 24.710437, 46.675164],
+    "source": "Mashable",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Saudi Arabia",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [41.87194,	12.56738, 13.756717, 100.501634],
+    "source": "Mashable",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Thailand",
+    "curvature": -0.5,
+  }
+  ,
+  {
+    "points": [41.87194,	12.56738,  39.932089, 32.859522],
+    "source": "Mashable",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Turkey",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [41.87194,	12.56738,   23.424076,	53.847818],
+    "source": "Mashable",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "United Arab Emirates",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [41.87194,	12.56738,  41.377491,	64.585262],
+    "source": "Mashable",
+    "percent": 17,
+    "from": "Italy",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Uzbekistan",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [51.165691,	10.451526, 	38.969719,	59.556278],
+    "source": "Mashable",
+    "percent": 17,
+    "from": "Germany",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Turkmenistan",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [51.165691,	10.451526, 	38.969719,	59.556278],
+    "source": "Euractiv",
+    "percent": 17,
+    "from": "Germany",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Turkmenistan",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [51.165691,	10.451526, 	21.913965,	95.956223],
+    "source": "Technology Review",
+    "percent": 17,
+    "from": "Germany",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Myanmar",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [51.165691,	10.451526, 	21.913965,	95.956223],
+    "source": "Technology Review",
+    "percent": 17,
+    "from": "Germany",
+    "parliconst": "Parliamentary constitutional republic",
+    "to": "Myanmar",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [37.09024,	-95.712891, 31.791702, -7.09262],
+    "source": "Washington Post",
+    "percent": 17,
+    "from": "United States",
+    "presConst": "Presidential constitutional republic",
+    "to": "Colombia",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [37.09024,	-95.712891, 48.019573,	66.923684],
+    "source": "Washington Post",
+    "percent": 17,
+    "from": "United States",
+    "presConst": "Presidential constitutional republic",
+    "to": "Kazakhstan",
+    "curvature": -0.5
+  }
+  ,
+  {
+    "points": [37.09024,	-95.712891, 41.377491,	64.585262],
+    "source": "Washington Post",
+    "percent": 17,
+    "from": "United States",
+    "presConst": "Presidential constitutional republic",
+    "to": "Uzbekistan",
     "curvature": -0.5
   }
 ]
